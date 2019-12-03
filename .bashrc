@@ -86,14 +86,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -181,40 +173,11 @@ export TASKRC="/home/supervedovatto/Documents/Programas/config/task/taskrc"
 
 ## Rprofile
 export R_PROFILE_USER="~/Documents/Programas/config/R/Rprofile"
-#export R_ENVIRON_USER="~/Documents/Programas/config/R/Renviron"
-#export R_PROFILE="~/Documents/Programas/config/R/Rprofile"
-#export R_ENVIRON="~/Documents/Programas/config/R/Renviron"
 
-## vim
-#export VIMINIT='source $MYVIMRC'
-#export MYVIMRC="~/Documents/Programas/config/vim/vimrc"
-#export MYVIMRC="~/Documents/Programas/config/vim/vimrc2"
-#export MYVIM="~/Documents/Programas/config/vim"
-# não mude a variável $VIM esse endereço por padrão deve ser redirecionado para "/usr/share/vim"
-
-## vifm
-#export MYVIFMRC="/home/supervedovatto/Documents/Programas/config/vifm/vifmrc"
-#export VIFM="/home/supervedovatto/Documents/Programas/config/vifm"
-
-## translate-shell
+# translate-shell
 export PAGER="less -R"
 
-## >>> conda initialize >>>
-## !! Contents within this block are managed by 'conda init' !!
-#__conda_setup="$('/home/supervedovatto/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-#if [ $? -eq 0 ]; then
-    #eval "$__conda_setup"
-#else
-    #if [ -f "/home/supervedovatto/anaconda3/etc/profile.d/conda.sh" ]; then
-        #. "/home/supervedovatto/anaconda3/etc/profile.d/conda.sh"
-    #else
-        #export PATH="/home/supervedovatto/anaconda3/bin:$PATH"
-    #fi
-#fi
-#unset __conda_setup
-## <<< conda initialize <<<
-
 #Adiciona meus scripts no PATH
-#Já existem alguns repositórios adicionados por padrão. O comando a seguir
-#apenas acrescenta mais um nessa lista
+#Já existem alguns repositórios adicionados por padrão. O comando a
+#seguir apenas acrescenta mais um nessa lista
 export PATH=$HOME/Documents/Programas/Shell:$PATH
