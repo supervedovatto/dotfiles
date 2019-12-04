@@ -1,0 +1,49 @@
+#text/plain; cat %s; copiousoutput
+#text/html; elinks -dump ; copiousoutput;
+##text/html; /usr/bin/firefox %s; print=/usr/bin/chromium %s
+#application/pdf; /usr/bin/zathura %s; print=/usr/bin/acroread %s
+#alternative_order text/plain text/enriched text/html     # save html for last
+#
+#
+# ~/.mutt/mailcap
+#
+# this uses the view_attachment script found in ~/.mutt/view_attachment.sh
+#
+# this is meant for an OS X system
+
+# MS Excel
+# this will use the default xls spreadsheet handler from open
+tmpdir="$HOME/.tmp/mutt_attach"
+
+application/x-msexcel; ~/.mutt/view_attachment.sh %s
+application/ms-exc; ~/.mutt/view_attachment.sh %s
+application/excel; ~/.mutt/view_attachment.sh %s
+application/msexcel; ~/.mutt/view_attachment.sh %s
+application/vnd.ms-exc; ~/.mutt/view_attachment.sh %s
+application/vnd.ms-excel; ~/.mutt/view_attachment.sh %s
+
+# MS Word
+# use textedit to open .doc files as it's more light-weight
+application/msword; ~/.mutt/view_attachment.sh %s "-" '/Applications/TextEdit.app'
+
+# Images
+image/jpg; ~/.mutt/view_attachment.sh %s jpg
+image/jpeg; ~/.mutt/view_attachment.sh %s jpg
+image/pjpeg; ~/.mutt/view_attachment.sh %s jpg
+image/png; ~/.mutt/view_attachment.sh %s png
+image/gif; ~/.mutt/view_attachment.sh %s gif
+
+# PDF
+application/pdf; ~/.mutt/view_attachment.sh %s pdf
+
+# RTF
+application/rtf; ~/.mutt/view_attachment.sh %s rtf
+
+# HTML
+text/html; ~/.mutt/view_attachment.sh %s html
+
+# Text
+#text/plain; nvim %s
+
+# Unidentified.
+application/octet-stream; ~/.mutt/view_attachment.sh %s "-"
