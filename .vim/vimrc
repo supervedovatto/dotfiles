@@ -38,12 +38,12 @@ endif
 filetype off
 
 call plug#begin("~/.vim/bundle")
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/pluginslist.vim
+source ~/.vim/pluginsconfigs/pluginslist.vim
 call plug#end()
 
-set runtimepath^=~/Documents/Programas/config/vim/
+"set runtimepath^=~/Documents/Programas/config/vim/
 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/CommonConfigs.vim
+source ~/.vim/pluginsconfigs/CommonConfigs.vim
 
 "Para corrigir o bug que fica imprimindo bad characters na tela quando usamos o nvim no terminator adicione a linha
 let g:UltiSnipsNoPythonWarning = 1
@@ -51,8 +51,8 @@ let g:UltiSnipsNoPythonWarning = 1
 set guicursor=
 
 "Name of the word list file where words are added for the |zg| and |zw| commands.  It must end in ".{encoding}.add".  You need to include the path, otherwise the file is placed in the current directory.
-set spellfile="~/Documents/Programas/config/vim/spell/pt.utf-8.add"
-set spellfile="~/Documents/Programas/config/vim/spell/en.utf-8.add"
+set spellfile="~/.vim/spell/pt.utf-8.add"
+set spellfile="~/.vim/spell/en.utf-8.add"
 
 "This will use the directory "/home/supervedovatto/Documents/Programas/config/vim" and finally "$VIMRUNTIME" (the distributed runtime files).
 "set runtimepath=$VIMRUNTIME,/home/supervedovatto/Documents/Programas/config/vim"

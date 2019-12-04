@@ -1,25 +1,25 @@
 "CONFIGURAÇÕES COMMUNS PARA O VIM E O NEOVIM
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/airline.vim
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/easymotion.vim
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/syntastic.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/indentLine.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/ultisnips.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/youcompleteme.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/mappings.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/ranger.vim 
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/pandoc.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/vim-session.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/tabularize.vim
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/undotree.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/netrw.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/vifm.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/ctrlp.vim
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/nerdtree.vim  
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/yankring.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/simpylfold.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/vimskeletons.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/limelight.vim 
-"source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/vim-markdown-preview.vim 
+source ~/.vim/pluginsconfigs/airline.vim
+source ~/.vim/pluginsconfigs/easymotion.vim
+source ~/.vim/pluginsconfigs/syntastic.vim 
+source ~/.vim/pluginsconfigs/indentLine.vim 
+source ~/.vim/pluginsconfigs/ultisnips.vim 
+source ~/.vim/pluginsconfigs/youcompleteme.vim 
+source ~/.vim/pluginsconfigs/mappings.vim 
+source ~/.vim/pluginsconfigs/ranger.vim 
+source ~/.vim/pluginsconfigs/pandoc.vim 
+"source ~/.vim/pluginsconfigs/vim-session.vim 
+"source ~/.vim/pluginsconfigs/tabularize.vim
+"source ~/.vim/pluginsconfigs/undotree.vim 
+"source ~/.vim/pluginsconfigs/netrw.vim 
+"source ~/.vim/pluginsconfigs/vifm.vim 
+"source ~/.vim/pluginsconfigs/ctrlp.vim
+"source ~/.vim/pluginsconfigs/nerdtree.vim  
+"source ~/.vim/pluginsconfigs/yankring.vim 
+"source ~/.vim/pluginsconfigs/simpylfold.vim 
+"source ~/.vim/pluginsconfigs/vimskeletons.vim 
+"source ~/.vim/pluginsconfigs/limelight.vim 
+"source ~/.vim/pluginsconfigs/vim-markdown-preview.vim 
 
 set encoding=UTF-8
 set showcmd           " Show (partial) command in status line.
