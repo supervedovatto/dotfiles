@@ -10,8 +10,6 @@
 
 #commands
 alias open="xdg-open"
-alias importconfigs='bash ~/Documents/Programas/Shell/config/ImportConfigs.sh'
-alias exportconfigs='bash ~/Documents/Programas/Shell/config/ExportConfigs.sh'
 alias YouCompleteMeCompile='bash ~/Documents/Programas/Shell/myscripts/YouCompleteMe-compile.sh'
 alias CleanLaTexAuxiliaryFiles='bash ~/Documents/Programas/Shell/myscripts/CleanAuxiliaryLaTexFiles.sh'
 #alias popcorntime='/opt/popcorntime/Popcorn-Time'
