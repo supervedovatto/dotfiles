@@ -41,8 +41,6 @@ call plug#begin("~/.vim/bundle")
 source ~/.vim/pluginsconfigs/pluginslist.vim
 call plug#end()
 
-"set runtimepath^=~/Documents/Programas/config/vim/
-
 source ~/.vim/pluginsconfigs/CommonConfigs.vim
 
 "Para corrigir o bug que fica imprimindo bad characters na tela quando usamos o nvim no terminator adicione a linha
