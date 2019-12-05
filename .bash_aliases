@@ -8,6 +8,48 @@
 #      CREATED: 29.09.18
 #==============================================================================
 
+#Minhas variáveis de atalho
+Downloads="/home/supervedovatto/Downloads"
+Pictures="/home/supervedovatto/Pictures"
+Documents="/home/supervedovatto/Documents"
+#Artigos="/home/supervedovatto/Documents/Artigos"
+#Contabilidade="/home/supervedovatto/Documents/Contabilidade"
+#DD="/home/supervedovatto/Documents/Contabilidade/Documentos Digitalizados"
+IFG="/home/supervedovatto/Documents/IFG"
+#Pareceres="/home/supervedovatto/Documents/Pareceres"
+Programas="/home/supervedovatto/Documents/Programas"
+Shell="/home/supervedovatto/Documents/Programas/Shell"
+myscripts="/home/supervedovatto/Documents/Programas/Shell/myscripts"
+config="/home/supervedovatto/Documents/Programas/config"
+Rlanguage="/home/supervedovatto/Documents/Programas/Rlanguage"
+Clanguage="/home/supervedovatto/Documents/Programas/Clanguage"
+LaTeX="/home/supervedovatto/Documents/Programas/LaTeX"
+#Databases="/home/supervedovatto/Documents/Databases"
+UFPE="/home/supervedovatto/Documents/UFPE"
+TaskWarrior="/home/supervedovatto/Documents/TaskWarrior"
+#Tese="/home/supervedovatto/Documents/UFPE/Tese"
+#TeseFinal="/home/supervedovatto/Documents/TeseFinal"
+#Submissions="/home/supervedovatto/Documents/UFPE/Submissions"
+#chapters="/home/supervedovatto/Documents/UFPE/Tese/chapters"
+#Meus_Artigos="/home/supervedovatto/Documents/UFPE/Meus_Artigos"
+#ECR="/home/supervedovatto/Documents/UFPE/Tese/chapters/ECR"
+#EntropyTesting="/home/supervedovatto/Documents/UFPE/Tese/chapters/ECR/R/EntropyTesting"
+VEDOVATTO="/media/supervedovatto/VEDOVATTO"
+VEDOVATTOPUBLIC="/media/supervedovatto/VEDOVATTOPUBLIC"
+VEDOVATTOKEYS="/media/supervedovatto/VedoVattoKeys"
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto --human-readable'
+    alias dir='dir --color=auto --human-readable'
+    alias vdir='vdir --color=auto --human-readable'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
 #commands
 alias open="xdg-open"
 alias YouCompleteMeCompile='bash ~/Documents/Programas/Shell/myscripts/YouCompleteMe-compile.sh'
