@@ -81,7 +81,6 @@ alias exodus='/opt/Exodus-linux-x64/Exodus'
 #alias trans='/opt/translate-shell/trans -v -pager="less -R"' 
 
 #aliases para alterar os arquivos de configuração dos programas
-alias zathura='zathura --config-dir="~/Documents/Programas/config/zathura" --data-dir="~/Documents/Programas/config/zathura"'
 alias tor-browser='~/opt/tor-browser/start-tor-browser'
 alias ranger='ranger -r ~/Documents/Programas/config/ranger/'
 

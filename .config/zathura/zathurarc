@@ -1,0 +1,37 @@
+set selection-clipboard clipboard
+#set recolor true
+#set recolor-darkcolor "#839496"
+#set recolor-lightcolor "#1c1c1c"
+#set synctex-editor-command String
+set incremental-search false
+set synctex true
+set font "overpass mono 16"
+#set font "monospace normal 20"
+set adjust-open best-fit
+set statusbar-v-padding 2
+set statusbar-h-padding 8
+set statusbar-basename false
+set window-title-basename "true"
+#set guioptions h #Omite a barra de status. Não é tão útil quanto parece
+
+# Colors
+set inputbar-bg "#1c1c1c"
+#set inputbar-fg "#657b83"
+set statusbar-bg "#1c1c1c"
+#set statusbar-fg "#657b83"
+set completion-bg "#1c1c1c"
+#set completion-fg "#657b83"
+#set index-fg "#657b83"
+#set index-bg "#1c1c1c"
+#set index-active-fg "#232323"
+#set index-active-bg "#323232"
+#set highlight-active-color "#657b83"
+#set highlight-color "#1c1c1c"
+set completion-highlight-fg "#1c1c1c"
+#set completion-highlight-bg "#657b83"
+set notification-bg "#1c1c1c"
+#set notification-fg "#657b83"
+set notification-error-bg "#1c1c1c"
+#set notification-error-fg "#657b83"
+set notification-warning-bg "#1c1c1c"
+#set notification-warning-fg "#657b83"

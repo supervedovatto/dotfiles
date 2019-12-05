@@ -151,10 +151,7 @@ VEDOVATTOKEYS="/media/supervedovatto/VedoVattoKeys"
 #Activate the vi mode
 set -o vi
 
-# CCONFIGURAÇÕES PARA PROGRAMAS CLI ------------------------------------------------------
-
-## xinit
-#xrdb -merge /home/supervedovatto/Documents/Programas/config/Xresources.d/xterm.Xresources
+# CONFIGURAÇÕES PARA PROGRAMAS CLI ------------------------------------------------------
 
 ## GnuPG
 export GPGKEY=supervedovatto
