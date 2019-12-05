@@ -76,13 +76,12 @@ alias gup='gu && gp'
 
 # Outros programas
 alias foxit='~/opt/foxitsoftware/foxitreader/FoxitReader'
-alias tmux='tmux -2 -f="~/Documents/Programas/config/tmux/tmux.conf"'
+alias tmux='tmux -2'
 alias exodus='/opt/Exodus-linux-x64/Exodus'
 #alias trans='/opt/translate-shell/trans -v -pager="less -R"' 
 
 #aliases para alterar os arquivos de configuração dos programas
 alias tor-browser='~/opt/tor-browser/start-tor-browser'
-alias ranger='ranger -r ~/Documents/Programas/config/ranger/'
 
 #aliases para os arquivos do git
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
