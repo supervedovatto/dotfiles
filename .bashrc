@@ -154,22 +154,13 @@ set -o vi
 # CCONFIGURAÇÕES PARA PROGRAMAS CLI ------------------------------------------------------
 
 ## xinit
-xrdb -merge /home/supervedovatto/Documents/Programas/config/Xresources.d/xterm.Xresources
+#xrdb -merge /home/supervedovatto/Documents/Programas/config/Xresources.d/xterm.Xresources
 
 ## GnuPG
 export GPGKEY=supervedovatto
 
 ## pass
 export PASSWORD_STORE_CLIP_TIME=60
-
-## neovim
-#Define o novo diretório para depósito das configuraçõe do neovim
-#export XDG_CONFIG_HOME=/home/supervedovatto/Documents/Programas/config
-#export XDG_CONFIG_HOME="/home/supervedovatto/.vim"
-#export VIM="/home/supervedovatto/.vim"
-
-## task
-export TASKRC="/home/supervedovatto/Documents/Programas/config/task/taskrc"
 
 ## Rprofile
 export R_PROFILE_USER="~/Documents/Programas/config/R/Rprofile"
