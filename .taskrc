@@ -14,7 +14,7 @@
 data.location=~/Documents/TaskWarrior
 
 # Color theme (uncomment one to use)
-include ~/Documents/Programas/config/task/task.theme
+include ~/.task/task.theme
 
 colors=on
 context.home=+home
