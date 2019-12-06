@@ -117,9 +117,6 @@ export GPGKEY=supervedovatto
 ## pass
 export PASSWORD_STORE_CLIP_TIME=60
 
-# translate-shell
-export PAGER="less -R"
-
 #Adiciona meus scripts no PATH
 #Já existem alguns repositórios adicionados por padrão. O comando a
 #seguir apenas acrescenta mais um nessa lista

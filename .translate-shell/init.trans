@@ -1,0 +1,3 @@
+# translate-shell
+export PAGER="less -R"
+
