@@ -117,9 +117,6 @@ export GPGKEY=supervedovatto
 ## pass
 export PASSWORD_STORE_CLIP_TIME=60
 
-## Rprofile
-export R_PROFILE_USER="~/Documents/Programas/config/R/Rprofile"
-
 # translate-shell
 export PAGER="less -R"
 
