@@ -24,7 +24,7 @@ Plug 'tpope/vim-fugitive' "fugitive.vim: a Git wrapper so awesome, it should be 
 Plug 'tpope/vim-surround' " surround
 "Plug 'tpope/vim-vinegar' " improves the netrw
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
-"Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 Plug 'vim-scripts/DrawIt'
 "Plug 'vim-scripts/bufexplorer.zip'
 Plug 'vim-scripts/easymotion'

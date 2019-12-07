@@ -20,6 +20,7 @@ source ~/.vim/pluginsconfigs/pandoc.vim
 "source ~/.vim/pluginsconfigs/vimskeletons.vim 
 "source ~/.vim/pluginsconfigs/limelight.vim 
 "source ~/.vim/pluginsconfigs/vim-markdown-preview.vim 
+"source ~/.vim/pluginsconfigs/devicons.vim
 
 set encoding=UTF-8
 set showcmd           " Show (partial) command in status line.
@@ -92,7 +93,7 @@ autocmd BufNewFile,BufRead *.md set filetype=markdown
 "au BufNewFile,BufRead *.tex, *.md set spell spelllang=pt
     "\ set complete+=kspell
 
-"set guifont=DroidSansMono\ Nerd\ Font\ 11
+set guifont=DroidSansMono\ Nerd\ Font\ 12
 
 
 "Configuração para usar o mutt-mail
