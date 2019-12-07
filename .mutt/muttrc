@@ -11,9 +11,6 @@ set reverse_name=yes
 set reverse_realname=no
 set smtp_url = "smtp://thiagovedovatto@smtp.gmail.com:587/"
 
-#Senhas criptografadas
-source "gpg -d ~/.password-store/google.com-mutt.gpg |"
-
 ##REMOTE GMAIL FOLDERS
 set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
@@ -21,6 +18,9 @@ set postponed ="+Rascunho"
 set trash = "+Lixeira"
 set mbox="+mbox"
 set record="+Enviados"
+
+#Senhas criptografadas
+source "gpg -d ~/.password-store/google.com-mutt.gpg |"
 
 ##STATUS BAR
 set status_chars  = " *%A"
@@ -32,7 +32,7 @@ source ~/.mutt/keybindings.conf
 source ~/.mutt/mailboxes.conf
 source ~/.mutt/common.conf
 source ~/.mutt/colorschemes/mutt-colors-solarized-light-16.muttrc
-source ~/.mutt/pgp.conf
+#source ~/.mutt/pgp.conf
 #source ~/.mutt/accounts.conf
 
 # vim: set ft=muttrc
