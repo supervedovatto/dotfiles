@@ -4,9 +4,10 @@
 " You can also specify a different font, overriding the default font
 set guioptions-=T  " no toolbar
  if has('gui_gtk3')
-     set guifont=Ubuntu\ Mono\ 12
-     set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
-     set guifont=Inconsolata\ 14
+    set guifont=DroidSansMono\ Nerd\ Font\ 12
+     "set guifont=Ubuntu\ Mono\ 12
+     "set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
+     "set guifont=Inconsolata\ 14
  elseif
      set guifont=DejaVu\ Sans\ Mono\ 12
  elseif
@@ -25,6 +26,6 @@ if filereadable("/etc/vim/gvimrc.local")
   source /etc/vim/gvimrc.local
 endif
 
-if filereadable("/home/supervedovatto/Documents/Programas/config/vim")
-  source /home/supervedovatto/Documents/Programas/config/vim
+if filereadable("~/.vim/vimrc")
+  source ~/.vim/vimrc
 endif
