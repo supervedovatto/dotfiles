@@ -1,4 +1,4 @@
-source /home/supervedovatto/Documents/Programas/config/vim/pluginsconfigs/nvimr.vim
+source ~/.vim/pluginsconfigs/nvimr.vim
 
 " Automatic line breaks
 " set formatoptions+=a
