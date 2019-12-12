@@ -1,6 +1,3 @@
-# sample abook configuration file
-#
-
 # Declare a few custom fields
 field pager = Pager
 field address_lines = Address, list
