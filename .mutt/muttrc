@@ -14,10 +14,11 @@ set smtp_url = "smtp://thiagovedovatto@smtp.gmail.com:587/"
 ##REMOTE GMAIL FOLDERS
 set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
-set postponed ="+Rascunho"
-set trash = "+Lixeira"
+
+set record = "+[Gmail]/Enviados"
+set postponed = "+[Gmail]/Rascunhos"
+set trash = "+[Gmail]/Lixeira"
 set mbox="+mbox"
-set record="+Enviados"
 
 #Senhas criptografadas
 source "gpg -d ~/.password-store/google.com-mutt.gpg |"
