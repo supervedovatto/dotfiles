@@ -125,6 +125,7 @@ alias translate='gawk -f <(curl -Ls git.io/translate) -- -shell'
 
 #aliases para os arquivos do git
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias mykeysbackup='bash ~/Documents/Programas/Shell/keysbackup.sh'
 
 #GCAP
 alias gcap2018='java -Xmx512m -jar /home/supervedovatto/Documents/Contabilidade/IRPF/Exercicio2019/GCAP2018/GCAP.jar'
