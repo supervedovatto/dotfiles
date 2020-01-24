@@ -1,6 +1,11 @@
 # general settings
-refresh-on-startup yes
 auto-reload yes
+reload-time 120
+reload-threads 4
+download-retries 4
+download-timeout 10
+prepopulate-query-feeds yes
+refresh-on-startup yes
 max-items 50
 always-display-description yes
 save-path "~/Documents/SavedNews/"
@@ -11,6 +16,8 @@ save-path "~/Documents/SavedNews/"
 browser "w3m %u"
 macro m set browser "mpv %u"; open-in-browser ; set browser "w3m %u"
 macro f set browser "firefox %u"; open-in-browser ; set browser "w3m %u"
+
+text-width 60 #https://baymard.com/blog/line-length-readability
 
 # external browser
 #browser "/usr/local/bin/w3m %u"
@@ -26,8 +33,20 @@ unbind-key J
 unbind-key K
 
 # bind keys - vim style
-bind-key j down
-bind-key k up
+#bind-key j down
+#bind-key k up
+goto-next-feed no
+
+#browser "open -g -a 'Google Chrome' %u"
+
+bind-key j down feedlist
+bind-key k up feedlist
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key j down article
+bind-key k up article
 #bind-key l open
 #bind-key h quit
 
@@ -45,7 +64,11 @@ highlight article "^(Title):.*$" blue default
 highlight article "https?://[^ ]+" red default
 highlight article "\\[image\\ [0-9]+\\]" green default
 
-#feedlist-format     "%4i %n %11u %t"
-#articlelist-format  "%4i %f %D   %?T?|%-17T|  ?%t"
+feedlist-format     "%2i %n %7u %t"
+articlelist-format  "%2i %f %D  %?T?|%-17T|  ?%t"
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
 #podlist-format      "%4i [%-5p %%] %-12S %F"
+
+unbind-key C feedlist
+confirm-exit no
+cleanup-on-quit no
