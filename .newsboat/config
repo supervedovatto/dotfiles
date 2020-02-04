@@ -8,6 +8,7 @@ prepopulate-query-feeds yes
 refresh-on-startup yes
 max-items 50
 always-display-description yes
+podcast-auto-enqueue yes
 save-path "~/Documents/SavedNews/"
 #html-renderer "w3m -dump -T text/html"
 #html-renderer "w3m -v -F -T text/html"
@@ -64,11 +65,19 @@ highlight article "^(Title):.*$" blue default
 highlight article "https?://[^ ]+" red default
 highlight article "\\[image\\ [0-9]+\\]" green default
 
-feedlist-format     "%2i %n %7u %t"
-articlelist-format  "%2i %f %D  %?T?|%-17T|  ?%t"
+feedlist-format     "%4i %n %12u %t"
+articlelist-format  "%4i %f %D %?T?|%-17T| ?%t" 
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
-#podlist-format      "%4i [%-5p %%] %-12S %F"
+#podlist-format      "%2i [%-5p %%] %-12S %F"
 
 unbind-key C feedlist
 confirm-exit no
 cleanup-on-quit no
+
+#podboat
+#max-downloads 2
+#download-path="~/Documents/Music/"
+#player="mp3blaster"
+
+#urls-source "feedly" 
+#opml-url "https://feedly.com/v3/opml?feedlyToken=A1fEY_P9uTgww0vJn4C17dQSVMd7SHkhm3hjCXxctOJbpK0LssXrjSEgZldc-QqIqW1iXhxUD1N7MpHTJxagB7oBLpUoZ5Xta-VpzAtNngRHIyli_IlLoTUfw94JL6RHVQBWttCCa0QjdP66RlB0yGAHJ38mrzMNXNawxeomIC9v9kwrkoAsRrlRRKQROSJo2AJ0AR5OJU6NwagdWZmVXK1_Jpbn0UucUze9-tIZwtDVtw%3Afeedly"
