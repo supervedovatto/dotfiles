@@ -1,1 +1,2 @@
 source ../.mutt/mailcap.conf
+application/pdf; zathura --config-dir="~/.config/zathura/" %s
