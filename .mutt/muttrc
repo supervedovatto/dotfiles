@@ -1,6 +1,3 @@
-# Main configuration based on http://www.physics.drexel.edu/liki/index.php/Mutt
-#set folder = ~/Mail
-
 # Mutt will mark emails from these addresses as having been sent by you
 alternates thiagovedovatto@gmail.com thiagovedovatto@outlook.com thiagovedovatto@rocketmail.com supervedovatto@hotmail.com thiago.vedovatto@ifg.edu.br
 
