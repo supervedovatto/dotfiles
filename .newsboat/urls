@@ -1,56 +1,286 @@
-http://g1.globo.com/dynamo/brasil/rss2.xml "~G1: Brasil"
-http://g1.globo.com/dynamo/goias/rss2.xml "~G1: Goiás"
-https://br.finance.yahoo.com/news/rss "~Yahoo Finanças: Notícias"
+"query:Only 720p:tags =~ \"torrents\" and ( title =~ \"720p\" )" "BTRSS"
+"query:Only 1080p:tags =~ \"torrents\" and ( title =~ \"1080p\" )" "BTRSS"
+"query:Only SD:tags =~ \"torrents\" and ( title =~ \"hdtv|x264|web\" )" "BTRSS"
+"query:Investimentos:tags =~ \"investimentos\""
+"query:Política:tags =~ \"politica\""
+"query:Blogs:tags =~ \"blog\""
+"query:Goiás:tags =~ \"goias\" or (title =~\"Goiás\")"
+"query:Jataí:tags =~ \"jatai\" or (title =~\"Jataí\")"
+"query:Academia:tags =~ \"academia\""
+"query:Noticias:tags =~ \"noticias\""
+"query:Ações ABEV:tags =~ \"ABEV\" or (title =~\"ABEV\") or (title =~\"AmBev\")"
+"query:Ações AZUL:tags =~ \"AZUL\" or (title =~\"AZUL\") or (title =~\"Azul\")"
+"query:Ações B3SA:tags =~ \"B3SA\" or (title =~\"B3SA\") or (title =~\"B3\")"
+"query:Ações BBAS:tags =~ \"BBAS\" or (title =~\"BBAS\") or (title =~\"Banco do Brasil\")"
+"query:Ações BBDC:tags =~ \"BBDC\" or (title =~\"BBDC\") or (title =~\"Bradesco\")"
+"query:Ações BBSE:tags =~ \"BBSE\" or (title =~\"BBSE\") or (title =~\"BB Seguridade\")"
+"query:Ações BEEF:tags =~ \"BEEF\" or (title =~\"BEEF\") or (title =~\"Minerva\")"
+"query:Ações BIDI:tags =~ \"BIDI\" or (title =~\"BIDI\") or (title =~\"Banco Inter\")"
+"query:Ações BPAC:tags =~ \"BPAC\" or (title =~\"BPAC\") or (title =~\"BTG Pactual\")"
+"query:Ações BRDT:tags =~ \"BRDT\" or (title =~\"BRDT\") or (title =~\"Petrobrás Distribuidora\") or (title =~\"BR Distribuidora\")" 
+"query:Ações BRFS:tags =~ \"BRFS\" or (title =~\"BRFS\") or (title =~\"BRF\")"
+"query:Ações BRML:tags =~ \"BRML\" or (title =~\"BRML\") or (title =~\"BR Malls\")" 
+"query:Ações BTOW:tags =~ \"BTOW\" or (title =~\"BTOW\") or (title =~\"B2W Digital\")" 
+"query:Ações CCRO:tags =~ \"CCRO\" or (title =~\"CCRO\") or (title =~\"CCR\")" 
+"query:Ações CIEL:tags =~ \"CIEL\" or (title =~\"CIEL\") or (title =~\"Cielo\")" 
+"query:Ações CMIG:tags =~ \"CMIG\" or (title =~\"CMIG\") or (title =~\"Cemig\")" 
+"query:Ações COGN:tags =~ \"COGN\" or (title =~\"COGN\") or (title =~\"Cogna\")" 
+"query:Ações CRFB:tags =~ \"CRFB\" or (title =~\"CRFB\") or (title =~\"Carrefour\")" 
+"query:Ações CSNA:tags =~ \"CSNA\" or (title =~\"CSNA\") or (title =~\"Siderúrgica Nacional\")" 
+"query:Ações CVCB:tags =~ \"CVCB\" or (title =~\"CVCB\") or (title =~\"CVC\")" 
+"query:Ações CYRE:tags =~ \"CYRE\" or (title =~\"CYRE\") or (title =~\"Cyrela\")" 
+"query:Ações ECOR:tags =~ \"ECOR\" or (title =~\"ECOR\")"
+"query:Ações EGIE:tags =~ \"EGIE\" or (title =~\"EGIE\")"
+"query:Ações ELET:tags =~ \"ELET\" or (title =~\"ELET\")"
+"query:Ações EMBR:tags =~ \"EMBR\" or (title =~\"EMBR\")"
+"query:Ações ENBR:tags =~ \"ENBR\" or (title =~\"ENBR\")"
+"query:Ações EQTL:tags =~ \"EQTL\" or (title =~\"EQTL\")"
+"query:Ações FLRY:tags =~ \"FLRY\" or (title =~\"FLRY\")"
+"query:Ações GGBR:tags =~ \"GGBR\" or (title =~\"GGBR\")"
+"query:Ações GNDI:tags =~ \"GNDI\" or (title =~\"GNDI\")"
+"query:Ações GOAU:tags =~ \"GOAU\" or (title =~\"GOAU\")"
+"query:Ações GOLL:tags =~ \"GOLL\" or (title =~\"GOLL\")"
+"query:Ações HAPV:tags =~ \"HAPV\" or (title =~\"HAPV\")"
+"query:Ações HGTX:tags =~ \"HGTX\" or (title =~\"HGTX\")"
+"query:Ações HYPE:tags =~ \"HYPE\" or (title =~\"HYPE\")"
+"query:Ações IGTA:tags =~ \"IGTA\" or (title =~\"IGTA\") or (title =~\"Iguatemi\")"
+"query:Ações IRBR:tags =~ \"IRBR\" or (title =~\"IRBR\")"
+"query:Ações ITSA:tags =~ \"ITSA\" or (title =~\"ITSA\")"
+"query:Ações ITUB:tags =~ \"ITUB\" or (title =~\"ITUB\") or (title =~\"Unibanco\") or (title =~\"Itau\")"
+"query:Ações JBSS:tags =~ \"JBSS\" or (title =~\"JBSS\") or (title =~\"JBS\")"
+"query:Ações JHSF:tags =~ \"JHSF\" or (title =~\"JHSF\") or (title =~\"JHS\")"
+"query:Ações KLBN:tags =~ \"KLBN\" or (title =~\"KLBN\")"
+"query:Ações LAME:tags =~ \"LAME\" or (title =~\"LAME\")"
+"query:Ações LREN:tags =~ \"LREN\" or (title =~\"LREN\") or (title =~\"Renner\")"
+"query:Ações MGLU:tags =~ \"MGLU\" or (title =~\"MGLU\") or (title =~\"Magazine Luiza\")"
+"query:Ações MRFG:tags =~ \"MRFG\" or (title =~\"MRFG\") or (title =~\"Marfrig\")"
+"query:Ações MRVE:tags =~ \"MRVE\" or (title =~\"MRVE\")"
+"query:Ações MULT:tags =~ \"MULT\" or (title =~\"MULT\")"
+"query:Ações NTCO:tags =~ \"NTCO\" or (title =~\"NTCO\")"
+"query:Ações OIBR:tags =~ \"OIBR\" or (title =~\"OIBR\") or (title =~\"Oi\")"
+"query:Ações PCAR:tags =~ \"PCAR\" or (title =~\"PCAR\")"
+"query:Ações PETR:tags =~ \"PETR\" or (title =~\"PETR\")"
+"query:Ações QUAL:tags =~ \"QUAL\" or (title =~\"QUAL\")"
+"query:Ações RADL:tags =~ \"RADL\" or (title =~\"RADL\")"
+"query:Ações RAIL:tags =~ \"RAIL\" or (title =~\"RAIL\")"
+"query:Ações RENT:tags =~ \"RENT\" or (title =~\"RENT\")"
+"query:Ações SANB:tags =~ \"SANB\" or (title =~\"SANB\") or (title =~\"Santander\")"
+"query:Ações SAPR:tags =~ \"SAPR\" or (title =~\"SAPR\") or (title =~\"Sanepar\")"
+"query:Ações SBSP:tags =~ \"SBSP\" or (title =~\"SBSP\")"
+"query:Ações SMLS:tags =~ \"SMLS\" or (title =~\"SMLS\")"
+"query:Ações SULA:tags =~ \"SULA\" or (title =~\"SULA\")"
+"query:Ações SUZB:tags =~ \"SUZB\" or (title =~\"SUZB\") or (title =~\"Suzano\")"
+"query:Ações TAEE:tags =~ \"TAEE\" or (title =~\"TAEE\") or (title =~\"Taesa\")"
+"query:Ações TIMP:tags =~ \"TIMP\" or (title =~\"TIMP\")"
+"query:Ações TOTS:tags =~ \"TOTS\" or (title =~\"TOTS\")"
+"query:Ações UGPA:tags =~ \"UGPA\" or (title =~\"UGPA\")"
+"query:Ações USIM:tags =~ \"USIM\" or (title =~\"USIM\")"
+"query:Ações VALE:tags =~ \"VALE\" or (title =~\"VALE\")"
+"query:Ações VIVT:tags =~ \"VIVT\" or (title =~\"VIVT\") or (title =~\"Vivo\") or (title =~\"Telefônica\")"
+"query:Ações VVAR:tags =~ \"VVAR\" or (title =~\"VVAR\")"
+"query:Ações WEGE:tags =~ \"WEGE\" or (title =~\"WEGE\")"
+"query:Ações YDUQ:tags =~ \"YDUQ\" or (title =~\"YDUQ\")"
+---acoes-fontes----------------------------------------------------------------
+https://moneytimes.com.br/ambev/rss ABEV
+https://moneytimes.com.br/azul/rss AZUL
+https://moneytimes.com.br/b2w/rss BTOW
+https://moneytimes.com.br/b3/rss B3SA
+https://moneytimes.com.br/banco-do-brasil/rss BBAS
+https://moneytimes.com.br/bb-seguridade/rss BBSE
+https://moneytimes.com.br/br-distribuidora/rss BRDT
+https://moneytimes.com.br/br-malls/rss BRML
+https://moneytimes.com.br/bradesco/rss BBDC
+https://moneytimes.com.br/brf/rss BRFS
+https://moneytimes.com.br/btg-pactual/rss BPAC
+https://moneytimes.com.br/banco-inter/rss BIDI
+https://moneytimes.com.br/carrefour/rss CRFB
+https://moneytimes.com.br/ccr/rss CCRO
+https://moneytimes.com.br/cemig/rss CMIG
+https://moneytimes.com.br/cielo/rss CIEL
+https://moneytimes.com.br/cogna/rss COGN
+https://moneytimes.com.br/csn/rss CSNA
+https://moneytimes.com.br/cvc-brasil/rss CVCB
+https://moneytimes.com.br/ecorodovias/rss ECOR
+https://moneytimes.com.br/cyrela/rss CYRE
+https://moneytimes.com.br/eletropaulo/rss ELET
+https://moneytimes.com.br/embraer/rss EMBR
+https://moneytimes.com.br/energias-do-brasil/rss ENBR
+https://moneytimes.com.br/engie-brasil/rss EGIE
+https://moneytimes.com.br/equatorial/rss EQTL
+https://moneytimes.com.br/fleury/rss FLRY
+https://moneytimes.com.br/gerdau/rss GGBR
+https://moneytimes.com.br/notredame/rss GNDI
+https://moneytimes.com.br/metalurgica-gerdau/rss GOAU
+https://moneytimes.com.br/gol/rss GOLL
+https://moneytimes.com.br/hapvida/rss HAPV
+https://moneytimes.com.br/hering/rss HGTX
+https://moneytimes.com.br/hypera/rss HYPE
+https://moneytimes.com.br/iguatemi/rss IGTA
+https://moneytimes.com.br/irb/rss IRBR
+https://moneytimes.com.br/itau-unibanco/rss ITUB
+https://moneytimes.com.br/itausa/rss ITSA
+https://moneytimes.com.br/jbs/rss JBSS
+https://moneytimes.com.br/jhsf/rss JHSF
+https://moneytimes.com.br/klabin/rss KLBN
+https://moneytimes.com.br/lojas-americanas/rss LAME
+https://moneytimes.com.br/lojas-renner/rss LREN
+https://moneytimes.com.br/magazine-luiza/rss MGLU
+https://moneytimes.com.br/marfrig/rss MRFG
+https://moneytimes.com.br/minerva/rss BEEF
+https://moneytimes.com.br/mrv/rss MRVE
+https://moneytimes.com.br/multiplan/rss MULT
+https://moneytimes.com.br/natura/rss NTCO
+https://moneytimes.com.br/oi/rss OIBR
+https://moneytimes.com.br/pao-de-acucar/rss PCAR
+https://moneytimes.com.br/petrobras/rss PETR
+https://moneytimes.com.br/qualicorp/rss QUAL
+https://moneytimes.com.br/raia-drogasil/rss RADL
+https://moneytimes.com.br/rumo/rss RAIL
+https://moneytimes.com.br/localiza/rss RENT
+https://moneytimes.com.br/sanepar/rss SAPR
+https://moneytimes.com.br/santander/rss SANB
+https://moneytimes.com.br/sabesp/rss SBSP
+https://moneytimes.com.br/smiles/rss SMLS
+https://moneytimes.com.br/sulamerica/rss SULA
+https://moneytimes.com.br/suzano/rss SUZB
+https://moneytimes.com.br/taesa/rss TAEE
+https://moneytimes.com.br/tim-participacoes/rss TIMP
+https://moneytimes.com.br/totvs/rss TOTS
+https://moneytimes.com.br/ultrapar/rss UGPA
+https://moneytimes.com.br/usiminas/rss USIM
+https://moneytimes.com.br/vale/rss VALE
+https://moneytimes.com.br/vivo/rss VIVT
+https://moneytimes.com.br/via-varejo/rss VVAR
+https://moneytimes.com.br/weg/rss WEGE
+https://moneytimes.com.br/yduqs/rss YDUQ
+---feedlist----------------------------------------------------------------------
+https://thepiratebay.org/rss//top100/0 torrents "BTRSS"
+https://www.torrentdownload.ch/feed_latest torrents "BTRSS"
+http://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml noticias "~Agência Brasil"
+http://altamiroborges.blogspot.com/feeds/posts/default blog politica "~Altamiro Borges"
+http://aprendainvestimentos.com/feed/ blog investimentos
+http://blog.xpi.com.br/feed blog investimentos "~XP Investimentos"
+http://blog.ativainvestimentos.com.br/feed/ blog investimentos
+http://blog.bussoladoinvestidor.com.br/feed/ investimentos
+http://blog.guiabolso.com.br/feed/atom/ investimentos blog "~Guia Bolso"
+http://blog.superlogica.com/feed/ blog investimentos
+http://blogdokennedy.com.br/feed/ blog politica
+http://blogdosakamoto.com.br/feed/ blog politica
+http://blogs.estadao.com.br/celso-ming/feed/ blog investimentos "~Celso Ming"
+http://blogs.estadao.com.br/fernando-dantas/feed/ blog investimentos "~Fernando Dantas"
+http://blogs.estadao.com.br/radar-do-emprego/feed/ blog investimentos "~Radar do Emprego"
+http://blogs.estadao.com.br/radar-economico/feed/ blog investimentos "~Radar Econômico"
+http://blogs.estadao.com.br/radar-imobiliario/feed/ blog investimentos "~Radar Imobiliário"
+http://blogs.oglobo.globo.com/bernardo-mello-franco/rss/ultimas.feed blog politica "~Bernardo Mello Franco"
+http://blogs.oglobo.globo.com/merval-pereira/rss/ultimas.feed blog investimentos "~Merval Pereira"
+http://blogs.oglobo.globo.com/miriam-leitao/rss/ultimas.feed blog investimentos "~Míriam Leitão"
+http://boitempoeditorial.wordpress.com/feed/ blog politica
+http://brasil.elpais.com/seccion/rss/economia/ blog investimentos "~El País"
+http://braziljournal.com/rss investimentos "Brazil Journal"
+http://carteiradeinvestimento.wordpress.com/feed/ blog investimentos
+http://causaoperaria.org.br/feed/ politica
+http://clubedovalor.com.br/feed/ investimentos
+http://economia.estadao.com.br/EN/rss/economia.xml blog investimentos "~O Estadão: Economia"
+http://economia.ig.com.br/p1237553848520.xml investimentos "~IG: Economia"
+http://economia.terra.com.br/rss/Controller?channelid=6f22bd10e1c4a310VgnVCM4000009bcceb0aRCRD&ctName=atomo-noticia&lg=pt-br investimentos "~Terra: Economia"
+http://economiadeservicos.com/feed/ blog investimentos
+http://eleuterioprado.wordpress.com/feed/ blog investimentos
+http://feeds.feedburner.com/EconomiaFinancas blog investimentos "~Economia e Finanças"
+http://feeds.feedburner.com/Investimento-anjoEEmpreendedorismo blog investimentos "~Anjo e Empreendedorismo"
+http://feeds.feedburner.com/InvestimentoEmImovel blog investimentos "~Investimento em Imóvel"
+http://feeds.feedburner.com/com/HvnI linux "Linux"
+http://feeds.feedburner.com/daltonvieira investimentos "~Dalton Vieira"
+http://feeds.feedburner.com/edivaldobrito linux "Linux"
+http://feeds2.feedburner.com/minhaseconomias investimentos "~Minhas Economias"
 http://finance.yahoo.com/rss/headline?s=petr "~Yahoo: PETR"
-http://www.cvm.gov.br/feed/noticias.xml "~CVM: Notícias"
-https://moneytimes.com.br/b3/rss "~Money Times: B3SA3"
-https://moneytimes.com.br/cyrela/rss "~Money Times: CYRE3"
-https://moneytimes.com.br/hapvida/rss "~Money Times: HAPV3"
-https://moneytimes.com.br/iguatemi/rss "~Money Times: IGTA3"
-https://moneytimes.com.br/itau-unibanco/rss "~Money Times: ITUB3"
-https://moneytimes.com.br/jhsf/rss "~Money Times: JHSF3"
-https://moneytimes.com.br/lojas-renner/rss "~Money Times: LREN3"
-https://moneytimes.com.br/magazine-luiza/rss "~Money Times: MGLU3"
-https://moneytimes.com.br/oi/rss "~Money Times: OIBR3"
-https://moneytimes.com.br/petrobras/rss "~Money Times: PETR4"
-https://moneytimes.com.br/sanepar/rss "~Money Times: SAPR3"
-https://moneytimes.com.br/taesa/rss "~Money Times: TAEE11"
-https://moneytimes.com.br/vale/rss "~Money Times: VALE3"
-https://g1.globo.com/tudo-sobre/petrobras/feed.xml "~G1: Petrobŕas"
-https://www.seudinheiro.com/rss "~Seu Dinheiro"
-http://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml "~Agência Brasil"
-https://moneytimes.com.br/rss "~Money Times: Notícias"
+http://g1.globo.com/dynamo/brasil/rss2.xml noticias brasil  "~G1: Brasil"
+http://g1.globo.com/dynamo/goias/rss2.xml noticias goias "~G1: Goiás"
+http://goias24horas.com.br/feed/ noticias goias
+http://www.opopular.com.br/cmlink/o-popular-%C3%BAltimas-1.272904 noticias goias "~O Popular"
+http://hcinvestimentos.com/feed/ blog investimentos
+http://hcinvestimentos.wordpress.com/feed/ blog investimentos
+http://imoveis-caixa.blogspot.com/feeds/posts/default blog investimentos "~Imóveis Caixa"
+http://investidorzeninguem.blogspot.com/feeds/posts/default blog investimentos "~Investidor Zé Ninguém"
+http://investimentos2016.blogspot.com/feeds/posts/default blog investimentos "~Investidor Maluco"
+http://investimentosefinancas.blogspot.com/feeds/posts/default blog investimentos "~Investimentos e Finanças"
+http://investimentovalor.blogspot.com/feeds/posts/default blog investimentos "~Investimentos Valor"
+http://joselitoinveste.blogspot.com/feeds/posts/default blog investimentos "~Joselito Investe"
+http://linuxdicasesuporte.blogspot.com/feeds/posts/default linux "~Linux Dica e Suporte"
+http://marxismo21.org/feed/ blog politica
+http://meusinvestimentostodomes.blogspot.com/feeds/posts/default blog investimentos "~Meus Investimentos do Mês"
+http://ministrodoinvestimento.blogspot.com/feeds/posts/default?alt=rss blog investimentos "~Ministro do Investimento"
+http://novobloglimpinhoecheiroso.wordpress.com/feed/ blog politica
+http://picapau777i.blogspot.com/feeds/posts/default blog investimentos "~Pica Pau 777i"
+http://poder360.com.br/feed/ politica
+http://ricamconsultoria.com.br/news/feed blog investimentos "~Ricam Consultoria"
+http://segredosdoinvestimento.com/feed/ blog investimentos
+http://seumadrugainvestimentos.blogspot.com/feeds/posts/default blog investimentos "~Seu Madruga Investimentos"
+http://tijolaco.com.br/index.php/feed/ politica
+http://tocadotux.blogspot.com/feeds/posts/default linux "~Toca do Tux"
+http://vidaboainvestimentos.blogspot.com/feeds/posts/default blog investimentos "~Vida Boa Investimentos"
+http://viverdedividendos.org/feed/ investimentos
+http://www.analisandoacoes.com.br/feed/ investimentos
+http://www.correiobraziliense.com.br/rss/noticia/economia/rss.xml investimentos "~Correio Brasiliense: Investimentos"
+http://www.cvm.gov.br/feed/noticias.xml investimentos "~CVM: Notícias"
+http://www.diariodepernambuco.com.br/rss/economia/ investimentos "~Diário de Pernanbuco: Economia
+http://www.esmaelmorais.com.br/?feed=rss2 politica "~Esmael Morais"
+http://www.esquerdadiario.com.br/spip.php?page=backend blog politica "~Esquerda Diário"
+http://www.euqueroinvestir.com/feed/ investimentos
+http://www.gazetadopovo.com.br/rss/economia investimentos "~Gazeta do Povo"
+http://www.guiadeinvestimento.com.br/feed/ blog investimentos
+http://www.gustavocerbasi.com.br/feed/ investimentos
+http://www.infomoney.com.br/onde-investir/fundos-de-investimento/rss blog investimentos "~Info Money: Onde Investir"
+http://www.investimentosenoticias.com.br/noticias?format=feed investimentos "~Investimento e Noícias"
+http://www.marceloauler.com.br/feed/ blog politica
+http://www.moneytimes.com.br/rss.xml investimentos
+http://www.ocafezinho.com/feed/ blog politica
+http://www.outraspalavras.net/feed/ blog politica
+http://www.saibamais.jor.br/feed/ blog politica
+http://www.socialistamorena.com.br/feed/ blog politica
+http://www.valor.com.br/financas/fundos-investimento/rss blog investimentos "Blogs sobre Investimento"
+http://www.valor.com.br/financas/investimentos/rss blog investimentos "Blogs sobre Investimento"
+http://www.valor.com.br/financas/tesouro-direto/rss investimentos "Investimentos"
+https://blog.clear.com.br/feed/ investimentos
+https://blog.genialinvestimentos.com.br/feed/ blog investimentos
+https://blog.toroinvestimentos.com.br/rss.xml blog investimentos "Blogs sobre Investimento"
+https://blogs.oglobo.globo.com/guga-chacra/rss/ultimas.feed blog politica
+https://br.finance.yahoo.com/news/rss investimentos "~Yahoo Finanças: Notícias"
+https://comoinvestir.thecap.com.br/feed/ investimentos
+https://dinheiroinvestimentoelazer.blogspot.com/feeds/posts/default blog investimentos "Blogs sobre Investimento"
+https://financenews.com.br/feed/ investimentos
+https://g1.globo.com/tudo-sobre/petrobras/feed.xml acoes PETR "~G1: Petrobrás"
+https://janusinvestimentos.com/feed/ investimentos
+https://kbinvestimentos.com.br/feed/ blog investimentos
+https://levanteideias.com.br/feed/ investimentos
+https://ligoinvestimentos.blogspot.com/feeds/posts/default blog investimentos "Blogs sobre Investimento"
+https://verios.com.br/feed/ blog investimentos
+https://www.emaisgoias.com.br/feed/ noticias goias
+https://www.infomoney.com.br/consumo/rss investimentos "~InfoMoney: Consumo"
+https://www.infomoney.com.br/economia/rss investimentos "~InfoMoney: Economia"
 https://www.infomoney.com.br/mercados/rss "~InfoMoney: Mercados"
-https://www.infomoney.com.br/onde-investir/rss "~InfoMoney: Onde Investir"
 https://www.infomoney.com.br/minhas-financas/rss "~InfoMoney: Minhas Finanças"
-https://www.infomoney.com.br/politica/rss "~InfoMoney: Política"
-https://www.infomoney.com.br/consumo/rss "~InfoMoney: Consumo"
 https://www.infomoney.com.br/negocios/rss "~InfoMoney: Negócios"
-https://www.infomoney.com.br/economia/rss "~InfoMoney: Economia"
-#https://br.investing.com/rss/market_overview_Technical.rss "~Investing: Análise Técnica"
-#https://br.investing.com/rss/market_overview_Fundamental.rss "~Investing: Análise Fundamentalista"
-#https://br.investing.com/rss/stock_Fundamental.rss "~Investing: Ações - Análise Fudamentalista"
-#https://br.investing.com/rss/commodities_Fundamental.rss "~Investing: Commódites - Análise Fundamentalista"
-#https://br.investing.com/rss/302.rss "~Investing: Criptomoedas"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCiKU4jY2kio5h5u1o5t-TfA "~YOUTUBE: App Renda Fixa"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Uu3nZlVbTur6xwhdoKhg "~YOUTUBE: BTG Pactual Digital"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsra3f6ogpXhIZbSUe2OoaA "~YOUTUBE: Bastter.com"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCu7a5rOuk4K1AJzSIaku5Hw "~YOUTUBE: André Bona - Finance and Investment"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCV74rV9AAKqXERWwfSP_Z1g "~YOUTUBE: DICA DE HOJE"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsU0E4F3RxVOSjWlIMieReA "~YOUTUBE: Nord Research"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCwONybZQdULFV_ts2911Rqg "~YOUTUBE: Tiago Reis"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWDeEIDAIi_oYKDiqwfGyRg "~YOUTUBE: Suno Research"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOKSOW5uJHdW7Edz37mvAFw "~YOUTUBE: José Kobori"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCU4AlCHPHLeT--kSWCgbHhA "~YOUTUBE: 500 Pratas"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6pkw1C4ha1cmU9aDJ8OxUw "~YOUTUBE: Jovens de Negócios"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g "~YOUTUBE: Mundo da Elétrica"
-#http://g1.globo.com/dynamo/economia/rss2.xml "~G1: Economia"
-#https://www.youtube.com/feeds/videos.xml?channel_id=UC2BLdwIa3Gb1Xw2FUqIp0XA "~YOUTUBE: Rodrigo Cohen"
-#http://g1.globo.com/dynamo/politica/rss2.xml "~G1: Política"
-#http://noticias.r7.com/economia/feed.xml "~R7: Economia"
-#http://noticias.r7.com/brasil/feed.xml "~R7: Brasil"
-#http://noticias.r7.com/hora-7/feed.xml "~R7: Hora 7"
-#https://www.valor.com.br/brasil/rss "~Valor Econômico: Brasil"
-#https://www.valor.com.br/financas/investimentos/rss "~Valor Econômico: Investimentos"
-#http://rss.uol.com.br/feed/economia.xml "~UOL: Economia"
-#https://www.reddit.com/r/investimentos.rss "~REDDIT: r/investimentos"
+https://www.infomoney.com.br/onde-investir/rss "~InfoMoney: Onde Investir"
+https://www.infomoney.com.br/politica/rss politica "~InfoMoney: Política"
+https://www.seudinheiro.com/feed/ investimentos
+---podcast----------------------------------------------------------------------
+https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
+---youtube----------------------------------------------------------------------
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6pkw1C4ha1cmU9aDJ8OxUw youtube investimentos "~YOUTUBE:Jovens de Negócios"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Uu3nZlVbTur6xwhdoKhg youtube investimentos "~YOUTUBE:BTG Pactual Digital"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOKSOW5uJHdW7Edz37mvAFw youtube investimentos "~YOUTUBE:José Kobori"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCU4AlCHPHLeT--kSWCgbHhA youtube investimentos "~YOUTUBE:500 Pratas"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCV74rV9AAKqXERWwfSP_Z1g youtube investimentos "~YOUTUBE:DICA DE HOJE"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWDeEIDAIi_oYKDiqwfGyRg youtube investimentos "~YOUTUBE:Suno Research"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiKU4jY2kio5h5u1o5t-TfA youtube investimentos "~YOUTUBE:App Renda Fixa"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsU0E4F3RxVOSjWlIMieReA youtube investimentos "~YOUTUBE:Nord Research"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsra3f6ogpXhIZbSUe2OoaA youtube investimentos "~YOUTUBE:Bastter.com"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCu7a5rOuk4K1AJzSIaku5Hw youtube investimentos "~YOUTUBE:André Bona - Finance and Investment"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwONybZQdULFV_ts2911Rqg youtube investimentos "~YOUTUBE:Tiago Reis"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC09bGSDmqxLV8RPMJ9hJcOQ youtube investimentos "~YOUTUBE:Mundo Rural Business"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBx_CluVFNvy0TXsmNBZ-ow youtube goias academia "~YOUTUBE:PUCTV Goiás"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbYtG9hcAj1cpW1SDKHERSA youtube goias academia "~YOUTUBE:IFG"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVEN3bSdTJsYvDM0JfqerYA youtube goias academia "~YOUTUBE:UFG"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqP8vc9XUHM74W8f6gSDHCA youtube goias academia "~YOUTUBE:UEG"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
