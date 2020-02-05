@@ -70,6 +70,9 @@ articlelist-format  "%4i %f %D %?T?|%-17T| ?%t"
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
 #podlist-format      "%2i [%-5p %%] %-12S %F"
 
+bookmark-cmd ~/.newsboat/bookmark.sh
+bookmark-autopilot yes
+
 unbind-key C feedlist
 confirm-exit no
 cleanup-on-quit no

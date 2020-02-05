@@ -1,13 +1,10 @@
-"query:Only 720p:tags =~ \"torrents\" and ( title =~ \"720p\" )" "BTRSS"
-"query:Only 1080p:tags =~ \"torrents\" and ( title =~ \"1080p\" )" "BTRSS"
-"query:Only SD:tags =~ \"torrents\" and ( title =~ \"hdtv|x264|web\" )" "BTRSS"
-"query:Investimentos:tags =~ \"investimentos\""
-"query:Política:tags =~ \"politica\""
-"query:Blogs:tags =~ \"blog\""
-"query:Goiás:tags =~ \"goias\" or (title =~\"Goiás\")"
-"query:Jataí:tags =~ \"jatai\" or (title =~\"Jataí\")"
-"query:Academia:tags =~ \"academia\""
-"query:Noticias:tags =~ \"noticias\""
+"query:Jataí:tags =~ \"jatai\" or (title =~\"Jataí\") and (age <=3)"
+"query:Academia:tags =~ \"academia\" and (age <=3)"
+"query:Goiás:tags =~ \"goias\" or (title =~\"Goiás\") and (age <=3)"
+"query:Investimentos:tags =~ \"investimentos\" and (age <=3)"
+"query:Blogs:tags =~ \"blog\" and (age <=3)"
+"query:Política:tags =~ \"politica\" and (age <=3)"
+"query:Noticias:tags =~ \"noticias\" and (age <=3)"
 "query:Ações ABEV:tags =~ \"ABEV\" or (title =~\"ABEV\") or (title =~\"AmBev\")"
 "query:Ações AZUL:tags =~ \"AZUL\" or (title =~\"AZUL\") or (title =~\"Azul\")"
 "query:Ações B3SA:tags =~ \"B3SA\" or (title =~\"B3SA\") or (title =~\"B3\")"
@@ -80,6 +77,10 @@
 "query:Ações VVAR:tags =~ \"VVAR\" or (title =~\"VVAR\")"
 "query:Ações WEGE:tags =~ \"WEGE\" or (title =~\"WEGE\")"
 "query:Ações YDUQ:tags =~ \"YDUQ\" or (title =~\"YDUQ\")"
+---Movies----------------------------------------------------------------------
+"query:Only 720p:tags =~ \"torrents\" and ( title =~ \"720p\" )" "BTRSS"
+"query:Only 1080p:tags =~ \"torrents\" and ( title =~ \"1080p\" )" "BTRSS"
+"query:Only SD:tags =~ \"torrents\" and ( title =~ \"hdtv|x264|web\" )" "BTRSS"
 ---acoes-fontes----------------------------------------------------------------
 https://moneytimes.com.br/ambev/rss ABEV
 https://moneytimes.com.br/azul/rss AZUL
@@ -174,6 +175,10 @@ http://blogs.estadao.com.br/radar-imobiliario/feed/ blog investimentos "~Radar I
 http://blogs.oglobo.globo.com/bernardo-mello-franco/rss/ultimas.feed blog politica "~Bernardo Mello Franco"
 http://blogs.oglobo.globo.com/merval-pereira/rss/ultimas.feed blog investimentos "~Merval Pereira"
 http://blogs.oglobo.globo.com/miriam-leitao/rss/ultimas.feed blog investimentos "~Míriam Leitão"
+https://feeds.folha.uol.com.br/mercado/rss091.xml investimentos
+https://degraoemgrao.blogfolha.uol.com.br/feed/ blog investimentos
+https://dinheiropublico.blogfolha.uol.com.br/feed/ blog investimentos
+https://brasil.blogfolha.uol.com.br/feed/ blog investimentos
 http://boitempoeditorial.wordpress.com/feed/ blog politica
 http://brasil.elpais.com/seccion/rss/economia/ blog investimentos "~El País"
 http://braziljournal.com/rss investimentos "Brazil Journal"
@@ -197,6 +202,9 @@ http://g1.globo.com/dynamo/brasil/rss2.xml noticias brasil  "~G1: Brasil"
 http://g1.globo.com/dynamo/goias/rss2.xml noticias goias "~G1: Goiás"
 http://goias24horas.com.br/feed/ noticias goias
 http://www.opopular.com.br/cmlink/o-popular-%C3%BAltimas-1.272904 noticias goias "~O Popular"
+https://www.dm.jor.br/feed/ noticias goias
+http://tribunadoplanalto.com.br/feed/ noticias goias
+https://jornalgoias.com.br/feed/ noticias goias
 http://hcinvestimentos.com/feed/ blog investimentos
 http://hcinvestimentos.wordpress.com/feed/ blog investimentos
 http://imoveis-caixa.blogspot.com/feeds/posts/default blog investimentos "~Imóveis Caixa"
@@ -262,6 +270,12 @@ https://www.infomoney.com.br/minhas-financas/rss "~InfoMoney: Minhas Finanças"
 https://www.infomoney.com.br/negocios/rss "~InfoMoney: Negócios"
 https://www.infomoney.com.br/onde-investir/rss "~InfoMoney: Onde Investir"
 https://www.infomoney.com.br/politica/rss politica "~InfoMoney: Política"
+https://www.plantaojti.com.br/feed/ jatai
+http://www.jatainews.com.br/feeds/posts/default jatai
+http://www.jatainews.com.br/feeds/comments/default jatai blog
+https://www.jatai.go.gov.br/noticias/feed/ jatai "~Prefeitura de Jataí"
+https://www.policiacivil.go.gov.br/tag/jatai/feed jatai "~Polícia Civil"
+https://pn7.com.br/feed/ jatai
 https://www.seudinheiro.com/feed/ investimentos
 ---podcast----------------------------------------------------------------------
 https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
