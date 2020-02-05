@@ -10,7 +10,7 @@ max-items 50
 always-display-description yes
 podcast-auto-enqueue yes
 save-path "~/Documents/SavedNews/"
-cache-file "~/Documents/newsboat_cache.db"
+cache-file "~/Documents/SavedNews/newsboat_cache.db"
 #html-renderer "w3m -dump -T text/html"
 #html-renderer "w3m -v -F -T text/html"
 #pager "w3m -T text/html"
