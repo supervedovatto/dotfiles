@@ -189,6 +189,7 @@ http://economia.estadao.com.br/EN/rss/economia.xml blog investimentos "~O Estad�
 http://economia.ig.com.br/p1237553848520.xml investimentos "~IG: Economia"
 http://economia.terra.com.br/rss/Controller?channelid=6f22bd10e1c4a310VgnVCM4000009bcceb0aRCRD&ctName=atomo-noticia&lg=pt-br investimentos "~Terra: Economia"
 http://economiadeservicos.com/feed/ blog investimentos
+https://www.hojeemdia.com.br/cmlink/geral-completo-1.402774 noticias
 http://eleuterioprado.wordpress.com/feed/ blog investimentos
 http://feeds.feedburner.com/EconomiaFinancas blog investimentos "~Economia e Finanças"
 http://feeds.feedburner.com/Investimento-anjoEEmpreendedorismo blog investimentos "~Anjo e Empreendedorismo"
@@ -277,6 +278,11 @@ https://www.jatai.go.gov.br/noticias/feed/ jatai "~Prefeitura de Jataí"
 https://www.policiacivil.go.gov.br/tag/jatai/feed jatai "~Polícia Civil"
 https://pn7.com.br/feed/ jatai
 https://www.seudinheiro.com/feed/ investimentos
+https://exame.abril.com.br/seu-dinheiro/feed/ investimentos
+https://exame.abril.com.br/economia/feed/ investimentos
+https://exame.abril.com.br/negocios/feed/ investimentos
+https://exame.abril.com.br/mundo/feed/ noticias
+https://exame.abril.com.br/brasil/feed/ noticias
 ---podcast----------------------------------------------------------------------
 https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
 ---youtube----------------------------------------------------------------------
