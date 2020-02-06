@@ -28,7 +28,7 @@
 "query:Ações CYRE:tags =~ \"CYRE\" or (title =~\"CYRE\") or (title =~\"Cyrela\")" 
 "query:Ações ECOR:tags =~ \"ECOR\" or (title =~\"ECOR\")"
 "query:Ações EGIE:tags =~ \"EGIE\" or (title =~\"EGIE\")"
-"query:Ações ELET:(tags =~ \"ELET\" or title =~\"ELET3\" or title =~\"ELET5\" or title =~\"ELET6\" or title =~\"eletrobras\")"
+"query:Ações ELET:tags =~ \"ELET\" or (title =~\"ELET\")"
 "query:Ações EMBR:tags =~ \"EMBR\" or (title =~\"EMBR\")"
 "query:Ações ENBR:tags =~ \"ENBR\" or (title =~\"ENBR\")"
 "query:Ações EQTL:tags =~ \"EQTL\" or (title =~\"EQTL\")"
@@ -60,9 +60,9 @@
 "query:Ações QUAL:tags =~ \"QUAL\" or (title =~\"QUAL\")"
 "query:Ações RADL:tags =~ \"RADL\" or (title =~\"RADL\")"
 "query:Ações RAIL:tags =~ \"RAIL\" or (title =~\"RAIL\")"
-"query:Ações RENT:tags =~ \"RENT\" or (title =~\"RENT3\" or title =~\"Localiza\")"
-"query:Ações SANB:tags =~ \"SANB\" or (title =~\"SANB\" or title =~\"Santander\")"
-"query:Ações SAPR:tags =~ \"SAPR\" or (title =~\"SAPR\" or title =~\"Sanepar\")"
+"query:Ações RENT:tags =~ \"RENT\" or (title =~\"RENT\")"
+"query:Ações SANB:tags =~ \"SANB\" or (title =~\"SANB\") or (title =~\"Santander\")"
+"query:Ações SAPR:tags =~ \"SAPR\" or (title =~\"SAPR\") or (title =~\"Sanepar\")"
 "query:Ações SBSP:tags =~ \"SBSP\" or (title =~\"SBSP\")"
 "query:Ações SMLS:tags =~ \"SMLS\" or (title =~\"SMLS\")"
 "query:Ações SULA:tags =~ \"SULA\" or (title =~\"SULA\")"
@@ -117,7 +117,7 @@ https://moneytimes.com.br/csn/rss CSNA
 https://moneytimes.com.br/cvc-brasil/rss CVCB
 https://moneytimes.com.br/cyrela/rss CYRE
 https://moneytimes.com.br/ecorodovias/rss ECOR
-https://moneytimes.com.br/eletrobras/rss ELET
+https://moneytimes.com.br/eletropaulo/rss ELET
 https://moneytimes.com.br/embraer/rss EMBR
 https://moneytimes.com.br/energias-do-brasil/rss ENBR
 https://moneytimes.com.br/engie-brasil/rss EGIE
