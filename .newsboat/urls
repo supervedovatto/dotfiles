@@ -1,6 +1,16 @@
+# -------- Starred Articles / Flagged Articles {{{
+# ------------------------------------------------------
+# https://newsboat.org/releases/2.10.1/docs/newsboat.html#_flagging_articles
+# https://github.com/akrennmair/newsbeuter/issues/464#issuecomment-272574679
+# Usage: go to an article, press Ctrl+e, press s, press enter; it will now show up in your 'Starred Articles' query feed
+# To Cancle: press Escape
+"query:Starred Articles:flags # \"s\""
+# }}}
 "query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3)"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\")"
+"query:Rural:(tags =~ \"rural\") and (age <= 3)"
+"query:Linux:(tags =~ \"linux\") and (age <= 3)"
 "query:Noticias:(tags =~ \"noticias\" or link =~ \"/noticias\") and (age <=3 and link !~\"/magazine\" and link !~\"/politica\" and link !~\"/patrocinado\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\")"
 "query:Política:(tags =~ \"politica\" or link =~ \"/politica\") and (age <=3)"
 "query:Investimentos:(tags =~ \"investimentos\" or link =~ \"/investimentos\" or link =~ \"/negocios\") and (link !~\"/blog\" and age <=3 and link !~\"/patrocinado\" and link !~\"/loteria\" and link !~\"/colunistas\")"
@@ -230,9 +240,11 @@ http://imoveis-caixa.blogspot.com/feeds/posts/default blog investimentos "~Imóv
 http://investidorzeninguem.blogspot.com/feeds/posts/default blog investimentos "~Investidor Zé Ninguém"
 http://investimentos2016.blogspot.com/feeds/posts/default blog investimentos "~Investidor Maluco"
 http://investimentosefinancas.blogspot.com/feeds/posts/default blog investimentos "~Investimentos e Finanças"
+http://conexaopolitica.com.br/feed/ politica
 http://investimentovalor.blogspot.com/feeds/posts/default blog investimentos "~Investimentos Valor"
 http://joselitoinveste.blogspot.com/feeds/posts/default blog investimentos "~Joselito Investe"
 http://linuxdicasesuporte.blogspot.com/feeds/posts/default linux "~Linux Dica e Suporte"
+https://www.edivaldobrito.com.br/feed/ blog linux
 http://marxismo21.org/feed/ blog politica
 http://meusinvestimentostodomes.blogspot.com/feeds/posts/default blog investimentos "~Meus Investimentos do Mês"
 http://ministrodoinvestimento.blogspot.com/feeds/posts/default?alt=rss blog investimentos "~Ministro do Investimento"
@@ -243,6 +255,7 @@ http://segredosdoinvestimento.com/feed/ blog investimentos
 http://seumadrugainvestimentos.blogspot.com/feeds/posts/default blog investimentos "~Seu Madruga Investimentos"
 http://tijolaco.com.br/index.php/feed/ politica
 http://tocadotux.blogspot.com/feeds/posts/default linux "~Toca do Tux"
+http://www.vivaolinux.com.br/index.rdf linux
 http://vidaboainvestimentos.blogspot.com/feeds/posts/default blog investimentos "~Vida Boa Investimentos"
 http://viverdedividendos.org/feed/ investimentos
 http://www.analisandoacoes.com.br/feed/ investimentos
@@ -298,6 +311,9 @@ https://pn7.com.br/feed/ jatai
 #https://exame.abril.com.br/negocios/feed/ investimentos
 https://exame.abril.com.br/mundo/feed/ noticias
 https://exame.abril.com.br/brasil/feed/ noticias
+---Rural------------------------------------------------------------------------
+https://blog.aegro.com.br/feed/ rural blog
+https://aprosojabrasil.com.br/feed/ rural blog
 ---podcast----------------------------------------------------------------------
 https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
 ---youtube----------------------------------------------------------------------

@@ -6,7 +6,7 @@ download-retries 4
 download-timeout 10
 prepopulate-query-feeds yes
 refresh-on-startup yes
-max-items 50
+max-items 500
 always-display-description yes
 podcast-auto-enqueue yes
 save-path "~/Documents/SavedNews/"
