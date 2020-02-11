@@ -79,9 +79,6 @@ confirm-exit no
 cleanup-on-quit no
 
 #podboat
-#max-downloads 2
-#download-path="~/Documents/Music/"
-#player="mp3blaster"
-
-#urls-source "feedly" 
-#opml-url "https://feedly.com/v3/opml?feedlyToken=A1fEY_P9uTgww0vJn4C17dQSVMd7SHkhm3hjCXxctOJbpK0LssXrjSEgZldc-QqIqW1iXhxUD1N7MpHTJxagB7oBLpUoZ5Xta-VpzAtNngRHIyli_IlLoTUfw94JL6RHVQBWttCCa0QjdP66RlB0yGAHJ38mrzMNXNawxeomIC9v9kwrkoAsRrlRRKQROSJo2AJ0AR5OJU6NwagdWZmVXK1_Jpbn0UucUze9-tIZwtDVtw%3Afeedly"
+max-downloads 4
+player "mpv"
+download-path "~/Music/%h/%n"

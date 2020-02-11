@@ -1,17 +1,12 @@
-# -------- Starred Articles / Flagged Articles {{{
-# ------------------------------------------------------
-# https://newsboat.org/releases/2.10.1/docs/newsboat.html#_flagging_articles
-# https://github.com/akrennmair/newsbeuter/issues/464#issuecomment-272574679
-# Usage: go to an article, press Ctrl+e, press s, press enter; it will now show up in your 'Starred Articles' query feed
-# To Cancle: press Escape
 "query:Starred Articles:flags # \"s\""
-# }}}
-"query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3)"
+"query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3 and title !~ \"COBERTURA FOTOGRÁFICA\")"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\")"
 "query:Rural:(tags =~ \"rural\") and (age <= 3)"
-"query:Linux:(tags =~ \"linux\") and (age <= 3)"
-"query:Noticias:(tags =~ \"noticias\" or link =~ \"/noticias\") and (age <=3 and link !~\"/magazine\" and link !~\"/politica\" and link !~\"/patrocinado\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\")"
+"query:Linux:(tags =~ \"linux\") and (age <= 3 and title!~\"Como instalar\")"
+"query:Criptomoedas:(tags =~ \"crypto\") and (age <= 3)"
+https://www.moneytimes.com.br/carteira-recomendada/rss investimentos
+"query:Noticias:(tags =~ \"noticias\" or link =~ \"/noticias\") and (age <=3 and link !~\"/magazine\" and link !~\"/politica\" and link !~\"/patrocinado\" and link !~\"/cultura\" and link !~\"/midia\" and link !~\"/lava-jato\" and link !~\"/tecnologia\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\")"
 "query:Política:(tags =~ \"politica\" or link =~ \"/politica\") and (age <=3)"
 "query:Investimentos:(tags =~ \"investimentos\" or link =~ \"/investimentos\" or link =~ \"/negocios\") and (link !~\"/blog\" and age <=3 and link !~\"/patrocinado\" and link !~\"/loteria\" and link !~\"/colunistas\")"
 "query:Blogs:(tags =~ \"blog\") or (link =~\"/colunistas\" and link =~\"/colunistas\" and age <=3)"
@@ -230,7 +225,7 @@ http://feeds2.feedburner.com/minhaseconomias investimentos "~Minhas Economias"
 http://g1.globo.com/dynamo/brasil/rss2.xml noticias brasil  "~G1: Brasil"
 http://g1.globo.com/dynamo/goias/rss2.xml noticias goias "~G1: Goiás"
 http://goias24horas.com.br/feed/ noticias goias
-http://www.opopular.com.br/cmlink/o-popular-%C3%BAltimas-1.272904 noticias goias "~O Popular"
+#http://www.opopular.com.br/cmlink/o-popular-%C3%BAltimas-1.272904 noticias goias "~O Popular"
 https://www.dm.jor.br/feed/ noticias goias
 http://tribunadoplanalto.com.br/feed/ noticias goias
 https://jornalgoias.com.br/feed/ noticias goias
@@ -270,7 +265,6 @@ http://www.gustavocerbasi.com.br/feed/ investimentos
 http://www.infomoney.com.br/onde-investir/fundos-de-investimento/rss blog investimentos "~Info Money: Onde Investir"
 http://www.investimentosenoticias.com.br/noticias?format=feed investimentos "~Investimento e Notícias"
 http://www.marceloauler.com.br/feed/ blog politica
-http://www.moneytimes.com.br/feed/ investimentos
 http://www.ocafezinho.com/feed/ blog politica
 http://www.outraspalavras.net/feed/ blog politica
 http://www.saibamais.jor.br/feed/ blog politica
@@ -278,11 +272,17 @@ http://www.socialistamorena.com.br/feed/ blog politica
 http://www.valor.com.br/financas/fundos-investimento/rss blog investimentos "Blogs sobre Investimento"
 http://www.valor.com.br/financas/investimentos/rss blog investimentos "Blogs sobre Investimento"
 http://www.valor.com.br/financas/tesouro-direto/rss investimentos "Investimentos"
+#http://www.moneytimes.com.br/feed/ investimentos
+https://www.moneytimes.com.br/mercados/feed/ investimentos
+https://www.moneytimes.com.br/acoes/feed/ investimentos
+https://www.moneytimes.com.br/ibovespa/feed/ investimentos
+https://www.moneytimes.com.br/author/diana-cheng/rss investimentos blog
+https://www.moneytimes.com.br/author/equipe-money-times/rss investimentos
 https://blog.clear.com.br/feed/ investimentos
 https://blog.genialinvestimentos.com.br/feed/ blog investimentos
 https://blog.toroinvestimentos.com.br/rss.xml blog investimentos "Blogs sobre Investimento"
 https://blogs.oglobo.globo.com/guga-chacra/rss/ultimas.feed blog politica
-https://br.finance.yahoo.com/news/rss investimentos "~Yahoo Finanças: Notícias"
+#https://br.finance.yahoo.com/news/rss investimentos "~Yahoo Finanças: Notícias"
 https://comoinvestir.thecap.com.br/feed/ investimentos
 https://dinheiroinvestimentoelazer.blogspot.com/feeds/posts/default blog investimentos "Blogs sobre Investimento"
 https://financenews.com.br/feed/ investimentos
@@ -311,11 +311,39 @@ https://pn7.com.br/feed/ jatai
 #https://exame.abril.com.br/negocios/feed/ investimentos
 https://exame.abril.com.br/mundo/feed/ noticias
 https://exame.abril.com.br/brasil/feed/ noticias
+https://www.moneytimes.com.br/author/bloomberg/rss investimentos
+https://www.moneytimes.com.br/author/reuters/rss investimentos
+https://www.moneytimes.com.br/author/blog-do-pq/rss investimentos blog
+https://www.moneytimes.com.br/opiniao/rss investimentos blog
 ---Rural------------------------------------------------------------------------
 https://blog.aegro.com.br/feed/ rural blog
 https://aprosojabrasil.com.br/feed/ rural blog
+https://www.embrapa.br/noticias-rss rural
+https://www.moneytimes.com.br/agronegocio/rss rural
+https://www.moneytimes.com.br/agricultura/rss rural
+https://www.moneytimes.com.br/agropecuaria/rss rural
+https://www.moneytimes.com.br/soja/rss rural
+https://www.moneytimes.com.br/milho/rss rural
+https://www.moneytimes.com.br/commodities/rss rural
+https://www.moneytimes.com.br/boi-gordo/rss rural
 ---podcast----------------------------------------------------------------------
 https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
+---crypto----------------------------------------------------------------------
+https://www.moneytimes.com.br/author/bravenewcoin/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/token/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/blockchain/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/lightning-network/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/criptomoedas/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/criptoativos/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/bitcoin-noticias/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/ethereum-noticias/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/iota/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/dash/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/monero/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/cardano/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/litecoin/feed/ crypto
+#https://www.moneytimes.com.br/cryptotimes/exodus/feed/ crypto
+https://www.moneytimes.com.br/cryptotimes/zcash/feed/ crypto
 ---youtube----------------------------------------------------------------------
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6pkw1C4ha1cmU9aDJ8OxUw youtube investimentos "~YOUTUBE:Jovens de Negócios"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Uu3nZlVbTur6xwhdoKhg youtube investimentos "~YOUTUBE:BTG Pactual Digital"
