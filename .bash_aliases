@@ -82,7 +82,6 @@ alias rvim="vim ~/.vim/ftplugin/r.vim"
 alias texvim="vim ~/.vim/ftplugin/tex.vim"
 alias vimrc="vim ~/.vim/vimrc"
 alias muttrc="vim ~/.mutt/muttrc"
-alias mutt='cd ~/Downloads && mutt'
 alias abook="abook --datafile ~/Documents/addressbook"
 alias vimCC="vim ~/.vim/pluginsconfigs/CommonConfigs.vim"
 alias i3config="vim ~/.config/i3/config"
