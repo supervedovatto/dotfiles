@@ -191,11 +191,11 @@ http://blog.guiabolso.com.br/feed/atom/ investimentos blog "~Guia Bolso"
 http://blog.superlogica.com/feed/ blog investimentos
 http://blogdokennedy.com.br/feed/ blog politica
 http://blogdosakamoto.com.br/feed/ blog politica
-http://blogs.estadao.com.br/celso-ming/feed/ blog investimentos "~Celso Ming"
-http://blogs.estadao.com.br/fernando-dantas/feed/ blog investimentos "~Fernando Dantas"
-http://blogs.estadao.com.br/radar-do-emprego/feed/ blog investimentos "~Radar do Emprego"
-http://blogs.estadao.com.br/radar-economico/feed/ blog investimentos "~Radar Econômico"
-http://blogs.estadao.com.br/radar-imobiliario/feed/ blog investimentos "~Radar Imobiliário"
+#http://blogs.estadao.com.br/celso-ming/feed/ blog investimentos "~Celso Ming"
+#http://blogs.estadao.com.br/fernando-dantas/feed/ blog investimentos "~Fernando Dantas"
+#http://blogs.estadao.com.br/radar-do-emprego/feed/ blog investimentos "~Radar do Emprego"
+#http://blogs.estadao.com.br/radar-economico/feed/ blog investimentos "~Radar Econômico"
+#http://blogs.estadao.com.br/radar-imobiliario/feed/ blog investimentos "~Radar Imobiliário"
 http://blogs.oglobo.globo.com/bernardo-mello-franco/rss/ultimas.feed blog politica "~Bernardo Mello Franco"
 http://blogs.oglobo.globo.com/merval-pereira/rss/ultimas.feed blog investimentos "~Merval Pereira"
 http://blogs.oglobo.globo.com/miriam-leitao/rss/ultimas.feed blog investimentos "~Míriam Leitão"

@@ -69,7 +69,6 @@ highlight article "\\[image\\ [0-9]+\\]" green default
 feedlist-format     "%4i %n %12u %t"
 articlelist-format  "%4i %f %D %?T?|%-17T| ?%t" 
 #notify-format       "%d new articles (%n unread articles, %f unread feeds)"
-#podlist-format      "%2i [%-5p %%] %-12S %F"
 
 bookmark-cmd ~/.newsboat/bookmark.sh
 bookmark-autopilot yes
@@ -82,3 +81,5 @@ cleanup-on-quit no
 max-downloads 4
 player "mpv"
 download-path "~/Music/%h/%n"
+#podlist-format "%4i [%-5p %%] %-12S %F"
+#download-filename-format "%F-%t.%e"
