@@ -103,7 +103,7 @@ alias bfg="java -jar /opt/bfg/bfg-1.12.16.jar"
 #alias jabref="java -jar /opt/JabRef/JabRef-4.1.jar"
 alias jabref="java -jar /opt/JabRef/JabRef-3.8.2.jar"
 alias Xreconfigure="bash ~/Documents/Programas/Shell/myscripts/RestartX.sh"
-alias slidesPE="evince ~/Documents/IFG/Probabilidade\ e\ Estatística/MateriaisOnline/Slides/Curso.pdf"
+alias slidesPE="evince ~/Documents/IFG/Disciplinas/Probabilidade\ e\ Estatística/Slides/SlidesPE.pdf"
 alias slidesGA="evince ~/Documents/IFG/Geometria\ Analítica/MateriaisOnline/Slides/Curso.pdf"
 
 # git aliases
