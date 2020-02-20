@@ -77,7 +77,7 @@ Plug 'vim-scripts/csv.vim' " A Filetype plugin for csv files.
 Plug 'rstudio/rmarkdown'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-pandoc/vim-pandoc'
-"Plug 'jamshedvesuna/vim-markdown-preview'
+Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'dkarter/bullets.vim' " Generate bulleted lists for markdown
 Plug 'godlygeek/tabular' " Vim script for text filtering and alignment
 

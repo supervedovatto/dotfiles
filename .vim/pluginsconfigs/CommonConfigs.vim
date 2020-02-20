@@ -8,6 +8,7 @@ source ~/.vim/pluginsconfigs/youcompleteme.vim
 source ~/.vim/pluginsconfigs/mappings.vim 
 source ~/.vim/pluginsconfigs/ranger.vim 
 source ~/.vim/pluginsconfigs/pandoc.vim 
+source ~/.vim/pluginsconfigs/instant-markdown.vim
 "source ~/.vim/pluginsconfigs/vim-session.vim 
 "source ~/.vim/pluginsconfigs/tabularize.vim
 "source ~/.vim/pluginsconfigs/undotree.vim 
