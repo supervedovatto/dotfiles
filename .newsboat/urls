@@ -1,4 +1,5 @@
 "query:Starred Articles:flags # \"s\""
+"query:Bolsas:(tags =~ \"bolsas\")"
 "query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3 and title !~ \"COBERTURA FOTOGRÁFICA\")"
 "query:Ciência:(tags =~ \"ciencia\") and (age <= 30)"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
@@ -364,6 +365,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCBx_CluVFNvy0TXsmNBZ-ow you
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbYtG9hcAj1cpW1SDKHERSA youtube goias academia "~YOUTUBE:IFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVEN3bSdTJsYvDM0JfqerYA youtube goias academia "~YOUTUBE:UFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCqP8vc9XUHM74W8f6gSDHCA youtube goias academia "~YOUTUBE:UEG"
+http://www.fapeg.go.gov.br/feed/ academia ciencia bolsas
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube ciencia "~YOUTUBE:Psicometristas Brasil"
