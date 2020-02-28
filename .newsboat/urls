@@ -1,6 +1,5 @@
 "query:Starred Articles:flags # \"s\""
 "query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3 and title !~ \"COBERTURA FOTOGRÁFICA\")"
-"query:Coronavirus:(title =~ \"Corona\") and (age <= 3)"
 "query:Ciência:(tags =~ \"ciencia\") and (age <= 30)"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
@@ -321,7 +320,6 @@ https://www.moneytimes.com.br/author/blog-do-pq/rss investimentos blog
 https://www.moneytimes.com.br/opiniao/rss investimentos blog
 ---Rural------------------------------------------------------------------------
 https://blog.aegro.com.br/feed/ rural blog
-https://alavoura.com.br/feed/ rural blog
 https://aprosojabrasil.com.br/feed/ rural blog
 https://www.embrapa.br/noticias-rss rural
 https://www.moneytimes.com.br/agronegocio/rss rural
@@ -366,10 +364,10 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCBx_CluVFNvy0TXsmNBZ-ow you
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbYtG9hcAj1cpW1SDKHERSA youtube goias academia "~YOUTUBE:IFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVEN3bSdTJsYvDM0JfqerYA youtube goias academia "~YOUTUBE:UFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCqP8vc9XUHM74W8f6gSDHCA youtube goias academia "~YOUTUBE:UEG"
-#https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
-#https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube ciencia "~YOUTUBE:Psicometristas Brasil"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCx1vXgGDXc7BH7bI1KC_o7Q youtube ciencia "~YOUTUBE:Fernanda Peres"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg youtube ciencia "~YOUTUBE:Programação Dinâmica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCb_Z-hpVjeb2C8-dVhL53kw youtube ciencia "~YOUTUBE:Prof. Eduardo Kenedy"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCgYmgIblAn-533kEKIWgPwA youtube ciencia "~YOUTUBE:Leandro Souto"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube ciencia "~YOUTUBE:Psicometristas Brasil"
+
