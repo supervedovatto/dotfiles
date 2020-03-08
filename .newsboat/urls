@@ -6,13 +6,13 @@
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
 "query:Rural:(tags =~ \"rural\") and (age <= 3)"
-"query:Linux:(tags =~ \"linux\") and (age <= 3 and title!~\"Como instalar\")"
+"query:Linux:(tags =~ \"linux\") and (age <= 3 and title!~\"Instale\" and title!~\"Como instalar\")"
 "query:Criptomoedas:(tags =~ \"crypto\" or title =~ \"altcoin\" or title =~ \"bitcoin\") and (age <= 3)"
 https://www.moneytimes.com.br/carteira-recomendada/rss investimentos
-"query:Investimentos:(tags =~ \"investimentos\" or link =~ \"/investimentos\" or link =~ \"/negocios\") and (link !~\"/blog\" and age <=3 and link !~\"/patrocinado\" and link !~\"/loteria\" and link !~\"/colunistas\")"
+"query:Blogs:(link =~\"/colunistas\" or link =~\"/colunistas\" or tags =~ \"blog\") and (age <= 3 and title!~\"Instale\" and title!~\"Como instalar\" and title !~\"BBB\")"
 "query:Noticias:(tags =~ \"noticias\" or link =~ \"/noticias\") and (age <=3 and link !~\"/magazine\" and link !~\"/politica\" and link !~\"/patrocinado\" and link !~\"/cultura\" and link !~\"/midia\" and link !~\"/lava-jato\" and link !~\"/tecnologia\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
 "query:Política:(tags =~ \"politica\" or link =~ \"/politica\") and (age <=3)"
-"query:Blogs:(link =~\"/colunistas\" or link =~\"/colunistas\" or tags =~ \"blog\") and (age <= 3 and title!~\"Como instalar\" and title !~\"BBB\")"
+"query:Investimentos:(tags =~ \"investimentos\" or link =~ \"/investimentos\" or link =~ \"/negocios\") and (link !~\"/blog\" and age <=3 and link !~\"/patrocinado\" and link !~\"/loteria\" and link !~\"/colunistas\")"
 "query:Ações ABEV:tags =~ \"ABEV\" or (title =~\"ABEV\") or (title =~\"AmBev\")"
 "query:Ações AZUL:tags =~ \"AZUL\" or (title =~\"AZUL\") or (title =~\"Azul\")"
 "query:Ações B3SA:tags =~ \"B3SA\" or (title =~\"B3SA\") or (title =~\"B3\")"
@@ -185,7 +185,7 @@ https://moneytimes.com.br/yduqs/rss YDUQ
 https://thepiratebay.org/rss//top100/0 torrents "BTRSS"
 https://www.torrentdownload.ch/feed_latest torrents "BTRSS"
 http://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml noticias "~Agência Brasil"
-http://altamiroborges.blogspot.com/feeds/posts/default blog politica "~Altamiro Borges"
+#http://altamiroborges.blogspot.com/feeds/posts/default blog politica "~Altamiro Borges"
 http://aprendainvestimentos.com/feed/ blog investimentos
 http://blog.xpi.com.br/feed blog investimentos "~XP Investimentos"
 http://blog.ativainvestimentos.com.br/feed/ blog investimentos
@@ -309,6 +309,7 @@ http://www.jatainews.com.br/feeds/comments/default jatai blog "~Jataí News: Com
 https://www.jatai.go.gov.br/noticias/feed/ jatai "~Prefeitura de Jataí"
 https://www.policiacivil.go.gov.br/tag/jatai/feed jatai "~Polícia Civil"
 https://pn7.com.br/feed/ jatai
+https://agenciadenoticias.ibge.gov.br/?Itemid=6853&format=feed&type=rss investimentos politica
 https://portaldisparada.com.br/category/economia-e-subdesenvolvimento/feed/ blog investimentos
 https://portaldisparada.com.br/category/politica-e-poder/feed/ blog investimentos
 #https://exame.abril.com.br/seu-dinheiro/feed/ investimentos
@@ -366,6 +367,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCBx_CluVFNvy0TXsmNBZ-ow you
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbYtG9hcAj1cpW1SDKHERSA youtube goias academia "~YOUTUBE:IFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVEN3bSdTJsYvDM0JfqerYA youtube goias academia "~YOUTUBE:UFG"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCqP8vc9XUHM74W8f6gSDHCA youtube goias academia "~YOUTUBE:UEG"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClz3DneoYlccluy4hBlx86Q youtube linux "~YOUTUBE:SlackJeff"
 http://www.fapeg.go.gov.br/feed/ academia ciencia bolsas
 http://cnpq.br/web/guest/noticias/-/asset_publisher/6QsO/rss?p_p_cacheability=cacheLevelPage academia ciencia bolsas
 http://cnpq.br/web/guest/assine-rss academia ciencia bolsas
@@ -375,6 +377,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw you
 https://www.youtube.com/feeds/videos.xml?channel_id=UCx1vXgGDXc7BH7bI1KC_o7Q youtube ciencia "~YOUTUBE:Fernanda Peres"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg youtube ciencia "~YOUTUBE:Programação Dinâmica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCb_Z-hpVjeb2C8-dVhL53kw youtube ciencia "~YOUTUBE:Prof. Eduardo Kenedy"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPjn2qL1oBeVBa44vqAJoNw youtube blog politica "~YOUTUBE:Blog do Miro"
 ---latex---------------------------------------------------------------------------
 http://www.texample.net/feeds/examples/ latex
 http://pgfplots.net/feeds/tikz/examples/ latex
