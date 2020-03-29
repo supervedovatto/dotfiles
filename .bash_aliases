@@ -190,3 +190,6 @@ cheatsheet () {
    #Função para obter um cheatsheet online
    curl cheat.sh/$1;
 }
+
+
+alias covid19="cd ~/Documents/Análises\ Estatísticas/Covid19 && git pull origin master"
