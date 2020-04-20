@@ -35,6 +35,9 @@ exec_always feh --bg-scale /home/supervedovatto/Pictures/Wallpapers/road_to_las_
 #Configuração dos monitores em meu computador principal usando o xrandr
 exec --no-startup-id autorandr --load mysetup
 
+exec --no-startup-id megasync
+exec --no-startup-id dropbox start
+
 #FONTS -------------------------------------------------- 
     #font pango:DejaVu Sans Mono 20
     font pango:Overpass Mono, FontAwesome 12
@@ -142,7 +145,8 @@ default_orientation auto
 #--------------------------------------------------
 
 # WINDOW TITLE ALIGNMENT------------------------------------------------
-new_window pixel 0 #Remove the titlebar
+#Remove the titlebar
+new_window pixel 0
 #--------------------------------------------------
 
 # DEFAULT BORDER STYLE FOR NEW WINDOWS------------------------------------------------
