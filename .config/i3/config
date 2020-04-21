@@ -5,7 +5,6 @@
 set $mod Mod4
 #-------------------------------------------------- 
 
-# Use Mouse+$mod to drag floating windows to their wanted position
 force_xinerama yes
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -35,6 +34,7 @@ exec_always feh --bg-scale /home/supervedovatto/Pictures/Wallpapers/road_to_las_
 #Configuração dos monitores em meu computador principal usando o xrandr
 exec --no-startup-id autorandr --load mysetup
 
+#Programas para ser inicializados
 exec --no-startup-id megasync
 exec --no-startup-id dropbox start
 
@@ -95,7 +95,7 @@ exec --no-startup-id dropbox start
     # reload the configuration file
     bindsym $mod+Shift+c reload
     # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-    bindsym rmod+Shift+r restart
+    bindsym $mod+Shift+r restart
     # exit i3 (logs you out of your X session)
     bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -146,12 +146,12 @@ default_orientation auto
 
 # WINDOW TITLE ALIGNMENT------------------------------------------------
 #Remove the titlebar
-new_window pixel 0
+#new_window pixel 10
 #--------------------------------------------------
 
 # DEFAULT BORDER STYLE FOR NEW WINDOWS------------------------------------------------
-default_border none
-default_floating_border none
+# default_border none
+# default_floating_border none
 #--------------------------------------------------
 
 # HIDING BORDERS ADJACENT TO THE SCREEN EDGES------------------------------------------------
@@ -167,7 +167,6 @@ hide_edge_borders smart
 #MANIPULATING LAYOUT--------------------------------------------------
 #layout default|tabbed|stacking|splitv|splith
 bindsym $mod+s layout stacking
-bindsym $mod+l layout toggle split
 bindsym $mod+w layout tabbed
 bindsym $mod+x layout toggle all
 
@@ -182,7 +181,6 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+t floating toggle
 
 # change container layout (stacked, tabbed, toggle split) bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # change focus between tiling / floating windows
