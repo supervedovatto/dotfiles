@@ -18,7 +18,7 @@ set trash = "+[Gmail]/Lixeira"
 set mbox="+mbox"
 
 #Senhas criptografadas
-source "gpg -d ~/.password-store/google.com-mutt.gpg |"
+source "gpg -d -q ~/.password-store/google.com-mutt.gpg |"
 
 ##STATUS BAR
 set status_chars  = " *%A"

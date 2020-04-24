@@ -51,7 +51,10 @@ exec --no-startup-id dropbox start
     bindsym $mod+Shift+q kill
 
     # start dmenu (a program launcher)
-    bindsym $mod+d exec dmenu_run
+    #bindsym $mod+Shift+p exec dmenu_run
+    bindsym $mod+Shift+p exec /home/supervedovatto/Documents/Programas/Shell/programs-menu.sh
+    bindsym $mod+Shift+d exec /home/supervedovatto/Documents/Programas/Shell/place-menu.sh
+    bindsym $mod+Shift+f exec /home/supervedovatto/Documents/Programas/Shell/files-menu.sh
     #bindsym $super_R exec dmenu_run
 
     # There also is the (new) i3-dmenu-desktop which only displays applications
