@@ -2,6 +2,8 @@
 "query:Bolsas:(tags =~ \"bolsas\")"
 "query:LaTeX:(tags =~ \"latex\") and (age <= 30)"
 "query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3 and title !~ \"COBERTURA FOTOGRÁFICA\")"
+"query:Data Science:(tags =~ \"datascience\") and (age <= 30)"
+
 "query:Ciência:(tags =~ \"ciencia\") and (age <= 30)"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
@@ -13,97 +15,111 @@ https://www.moneytimes.com.br/carteira-recomendada/rss investimentos
 "query:Noticias:(tags =~ \"noticias\" or link =~ \"/noticias\") and (age <=3 and link !~\"/magazine\" and link !~\"/politica\" and link !~\"/patrocinado\" and link !~\"/cultura\" and link !~\"/midia\" and link !~\"/lava-jato\" and link !~\"/tecnologia\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
 "query:Política:(tags =~ \"politica\" or link =~ \"/politica\") and (age <=3)"
 "query:Investimentos:(tags =~ \"investimentos\" or link =~ \"/investimentos\" or link =~ \"/negocios\") and (link !~\"/blog\" and age <=3 and link !~\"/patrocinado\" and link !~\"/loteria\" and link !~\"/colunistas\")"
-"query:Ações ABEV:tags =~ \"ABEV\" or (title =~\"ABEV\") or (title =~\"AmBev\")"
-"query:Ações AZUL:tags =~ \"AZUL\" or (title =~\"AZUL\") or (title =~\"Azul\")"
-"query:Ações B3SA:tags =~ \"B3SA\" or (title =~\"B3SA\") or (title =~\"B3\")"
-"query:Ações BBAS:tags =~ \"BBAS\" or (title =~\"BBAS\") or (title =~\"Banco do Brasil\")"
-"query:Ações BBDC:tags =~ \"BBDC\" or (title =~\"BBDC\") or (title =~\"Bradesco\")"
-"query:Ações BBSE:tags =~ \"BBSE\" or (title =~\"BBSE\") or (title =~\"BB Seguridade\")"
-"query:Ações BEEF:tags =~ \"BEEF\" or (title =~\"BEEF\") or (title =~\"Minerva\")"
-"query:Ações BIDI:tags =~ \"BIDI\" or (title =~\"BIDI\") or (title =~\"Intermedium\") or (title =~\"Banco Inter\")"
-"query:Ações BPAC:tags =~ \"BPAC\" or (title =~\"BPAC\") or (title =~\"BTG Pactual\")"
-"query:Ações BRDT:tags =~ \"BRDT\" or (title =~\"BRDT\") or (title =~\"Petrobrás Distribuidora\") or (title =~\"BR Distribuidora\")" 
-"query:Ações BRFS:tags =~ \"BRFS\" or (title =~\"BRFS\") or (title =~\"BRF\")"
-"query:Ações BRML:tags =~ \"BRML\" or (title =~\"BRML\") or (title =~\"BR Malls\")" 
-"query:Ações BTOW:tags =~ \"BTOW\" or (title =~\"BTOW\") or (title =~\"B2W Digital\")" 
-"query:Ações CCRO:tags =~ \"CCRO\" or (title =~\"CCRO\") or (title =~\"CCR\")" 
-"query:Ações CIEL:tags =~ \"CIEL\" or (title =~\"CIEL\") or (title =~\"Cielo\")" 
-"query:Ações CMIG:tags =~ \"CMIG\" or (title =~\"CMIG\") or (title =~\"Cemig\")" 
-"query:Ações COGN:tags =~ \"COGN\" or (title =~\"COGN\") or (title =~\"Cogna\")" 
-"query:Ações CRFB:tags =~ \"CRFB\" or (title =~\"CRFB\") or (title =~\"Carrefour\")" 
-"query:Ações CSNA:tags =~ \"CSNA\" or (title =~\"CSNA\") or (title =~\"Siderúrgica Nacional\")" 
-"query:Ações CVCB:tags =~ \"CVCB\" or (title =~\"CVCB\") or (title =~\"CVC\")" 
-"query:Ações CYRE:tags =~ \"CYRE\" or (title =~\"CYRE\") or (title =~\"Cyrela\")" 
-"query:Ações ECOR:tags =~ \"ECOR\" or (title =~\"ECOR\")"
-"query:Ações EGIE:tags =~ \"EGIE\" or (title =~\"EGIE\")"
-"query:Ações ELET:tags =~ \"ELET\" or (title =~\"ELET\")"
-"query:Ações EMBR:tags =~ \"EMBR\" or (title =~\"EMBR\")"
-"query:Ações ENBR:tags =~ \"ENBR\" or (title =~\"ENBR\")"
-"query:Ações EQTL:tags =~ \"EQTL\" or (title =~\"EQTL\")"
-"query:Ações FLRY:tags =~ \"FLRY\" or (title =~\"FLRY\")"
-"query:Ações GGBR:tags =~ \"GGBR\" or (title =~\"GGBR\")"
-"query:Ações GNDI:tags =~ \"GNDI\" or (title =~\"GNDI\")"
-"query:Ações GOAU:tags =~ \"GOAU\" or (title =~\"GOAU\")"
-"query:Ações GOLL:tags =~ \"GOLL\" or (title =~\"GOLL\") or (title =~\"Gol\")"
-"query:Ações HAPV:tags =~ \"HAPV\" or (title =~\"HAPV\")"
-"query:Ações HGTX:tags =~ \"HGTX\" or (title =~\"HGTX\")"
-"query:Ações HYPE:tags =~ \"HYPE\" or (title =~\"HYPE\")"
-"query:Ações IGTA:tags =~ \"IGTA\" or (title =~\"IGTA\") or (title =~\"Iguatemi\")"
-"query:Ações IRBR:tags =~ \"IRBR\" or (title =~\"IRBR\")"
-"query:Ações ITSA:tags =~ \"ITSA\" or (title =~\"ITSA\")"
-"query:Ações ITUB:tags =~ \"ITUB\" or (title =~\"ITUB\") or (title =~\"Unibanco\") or (title =~\"Itaú\")"
-"query:Ações JBSS:tags =~ \"JBSS\" or (title =~\"JBSS\") or (title =~\"JBS\")"
-"query:Ações JHSF:tags =~ \"JHSF\" or (title =~\"JHSF\") or (title =~\"JHS\")"
-"query:Ações KLBN:tags =~ \"KLBN\" or (title =~\"KLBN\")"
-"query:Ações LAME:tags =~ \"LAME\" or (title =~\"LAME\")"
-"query:Ações LREN:tags =~ \"LREN\" or (title =~\"LREN\") or (title =~\"Renner\")"
-"query:Ações MGLU:tags =~ \"MGLU\" or (title =~\"MGLU\") or (title =~\"Magazine Luiza\")"
-"query:Ações MRFG:tags =~ \"MRFG\" or (title =~\"MRFG\") or (title =~\"Marfrig\")"
-"query:Ações MRVE:tags =~ \"MRVE\" or (title =~\"MRVE\")"
-"query:Ações MULT:tags =~ \"MULT\" or (title =~\"MULT\")"
-"query:Ações NTCO:tags =~ \"NTCO\" or (title =~\"NTCO\")"
-"query:Ações OIBR:tags =~ \"OIBR\" or (title =~\"OIBR\") or (title =~\"Oi\")"
-"query:Ações PCAR:tags =~ \"PCAR\" or (title =~\"PCAR\")"
-"query:Ações PETR:tags =~ \"PETR\" or (title =~\"PETR\")"
-"query:Ações QUAL:tags =~ \"QUAL\" or (title =~\"QUAL\")"
-"query:Ações RADL:tags =~ \"RADL\" or (title =~\"RADL\")"
-"query:Ações RAIL:tags =~ \"RAIL\" or (title =~\"RAIL\")"
-"query:Ações RENT:tags =~ \"RENT\" or (title =~\"RENT\")"
-"query:Ações SANB:tags =~ \"SANB\" or (title =~\"SANB\") or (title =~\"Santander\")"
-"query:Ações SAPR:tags =~ \"SAPR\" or (title =~\"SAPR\") or (title =~\"Sanepar\")"
-"query:Ações SBSP:tags =~ \"SBSP\" or (title =~\"SBSP\")"
-"query:Ações SMLS:tags =~ \"SMLS\" or (title =~\"SMLS\")"
-"query:Ações SULA:tags =~ \"SULA\" or (title =~\"SULA\")"
-"query:Ações SUZB:tags =~ \"SUZB\" or (title =~\"SUZB\") or (title =~\"Suzano\")"
-"query:Ações TAEE:tags =~ \"TAEE\" or (title =~\"TAEE\") or (title =~\"Taesa\")"
-"query:Ações TIMP:tags =~ \"TIMP\" or (title =~\"TIMP\")"
-"query:Ações TOTS:tags =~ \"TOTS\" or (title =~\"TOTS\")"
-"query:Ações UGPA:tags =~ \"UGPA\" or (title =~\"UGPA\")"
-"query:Ações USIM:tags =~ \"USIM\" or (title =~\"USIM\")"
-"query:Ações VALE:tags =~ \"VALE\" or (title =~\"VALE\")"
-"query:Ações VIVT:tags =~ \"VIVT\" or (title =~\"VIVT\") or (title =~\"Vivo\") or (title =~\"Telefônica\")"
-"query:Ações VVAR:tags =~ \"VVAR\" or (title =~\"VVAR\")"
-"query:Ações WEGE:tags =~ \"WEGE\" or (title =~\"WEGE\")"
-"query:Ações YDUQ:tags =~ \"YDUQ\" or (title =~\"YDUQ\")"
-"query:Ações PRIO:tags =~ \"PRIO\" or (title =~\"PRIO\") or (title =~\"PetroRio\")"
-"query:Ações AGRO:tags =~ \"AGRO\" or (title =~\"AGRO\") or (title =~\"Brasil Agro\")"
-"query:Ações FRTA:tags =~ \"FRTA\" or (title =~\"FRTA\") or (title =~\"Pomi Frutas\")"
-"query:Ações GSHP:tags =~ \"GSHP\" or (title =~\"GSHP\") or (title =~\"General Shopping\")"
-"query:Ações CRDE:tags =~ \"CRDE\" or (title =~\"CRDE\") or (title =~\"CR2\")"
-"query:Ações NUTR:tags =~ \"NUTR\" or (title =~\"NUTR\") or (title =~\"Nutriplant\")"
-"query:Ações SQIA:tags =~ \"SQIA\" or (title =~\"SQIA\") or (title =~\"Sinqia\")"
+
+---Minha-Carteira----------------------------------------------------------------
+"query:Ações ABEV:(tags =~\"ABEV\" or title =~\"ABEV\" or title =~\"AmBev\")"
+"query:Ações ARZZ:(tags =~\"ARZZ\" or title =~\"ARZZ\" or title =~\"Arezzo\")"
+"query:Ações BBAS:(tags =~\"BBAS\" or title =~\"BBAS\" or title =~\"Banco do Brasil\")"
+"query:Ações BBDC:(tags =~\"BBDC\" or title =~\"BBDC\" or title =~\"Bradesco\")"
+"query:Ações BBSE:(tags =~\"BBSE\" or title =~\"BBSE\" or title =~\"BB Seguridade\")"
+"query:Ações CCRO:(tags =~\"CCRO\" or title =~\"CCRO\" or title =~\"CCR\")" 
+"query:Ações COGN:(tags =~\"COGN\" or title =~\"COGN\" or title =~\"Cogna\")" 
+"query:Ações EGIE:(tags =~\"EGIE\" or title =~\"EGIE\")"
+"query:Ações GRND:(tags =~\"GRND\" or title =~\"grendene\")" 
+"query:Ações IRBR:(tags =~\"IRBR\" or title =~\"IRBR\")"
+"query:Ações ODPV:(tags =~\"ODPV\" or title =~\"ODPV\" or title =~\"Odontoprev\")"
+"query:Ações PARD:(tags =~\"PARD\" or title =~\"PARD\" or title =~\"pardini\")"
+"query:Ações RENT:(tags =~\"RENT\") and (link !~\"torrent\" and link !~\"magnet\")"
+"query:Ações SANB:(tags =~\"SANB\" or title =~\"SANB\" or title =~\"Santander\")"
+"query:Ações SAPR:(tags =~\"SAPR\" or title =~\"SAPR\" or title =~\"Sanepar\")"
+"query:Ações TAEE:(tags =~\"TAEE\" or title =~\"TAEE\" or title =~\"Taesa\")"
+"query:Ações TIET:(tags =~\"TIET\" or title =~\"TIET\" or title =~\"Tiete\")"
+"query:Ações USIM:(tags =~\"USIM\" or title =~\"USIM\")"
+
+---Outras-Ações----------------------------------------------------------------
+"query:Ações AGRO:(tags =~\"AGRO\" or title =~\"AGRO\") or (title =~\"Brasil Agro\")"
+"query:Ações AZUL:(tags =~\"AZUL\" or title =~\"AZUL\") or (title =~\"Azul\")"
+"query:Ações B3SA:(tags =~\"B3SA\" or title =~\"B3SA\") or (title =~\"B3\")"
+"query:Ações BEEF:(tags =~\"BEEF\" or title =~\"BEEF\") or (title =~\"Minerva\")"
+"query:Ações BIDI:(tags =~\"BIDI\" or title =~\"BIDI\") or (title =~\"Intermedium\") or (title =~\"Banco Inter\")"
+"query:Ações BPAC:(tags =~\"BPAC\" or title =~\"BPAC\") or (title =~\"BTG Pactual\")"
+"query:Ações BRDT:(tags =~\"BRDT\" or title =~\"BRDT\") or (title =~\"Petrobrás Distribuidora\") or (title =~\"BR Distribuidora\")" 
+"query:Ações BRFS:(tags =~\"BRFS\" or title =~\"BRFS\") or (title =~\"BRF\")"
+"query:Ações BRML:(tags =~\"BRML\" or title =~\"BRML\") or (title =~\"BR Malls\")" 
+"query:Ações BTOW:(tags =~\"BTOW\" or title =~\"BTOW\") or (title =~\"B2W Digital\")" 
+"query:Ações CIEL:(tags =~\"CIEL\" or title =~\"CIEL\") or (title =~\"Cielo\")" 
+"query:Ações CMIG:(tags =~\"CMIG\" or title =~\"CMIG\") or (title =~\"Cemig\")" 
+"query:Ações CRDE:(tags =~\"CRDE\" or title =~\"CRDE\") or (title =~\"CR2\")"
+"query:Ações CRFB:(tags =~\"CRFB\" or title =~\"CRFB\") or (title =~\"Carrefour\")" 
+"query:Ações CSNA:(tags =~\"CSNA\" or title =~\"CSNA\") or (title =~\"Siderúrgica Nacional\")" 
+"query:Ações CVCB:(tags =~\"CVCB\" or title =~\"CVCB\") or (title =~\"CVC\")" 
+"query:Ações CYRE:(tags =~\"CYRE\" or title =~\"CYRE\") or (title =~\"Cyrela\")" 
+"query:Ações ECOR:(tags =~\"ECOR\" or title =~\"ECOR\")"
+"query:Ações ELET:(tags =~\"ELET\" or title =~\"ELET\")"
+"query:Ações EMBR:(tags =~\"EMBR\" or title =~\"EMBR\")"
+"query:Ações ENBR:(tags =~\"ENBR\" or title =~\"ENBR\")"
+"query:Ações EQTL:(tags =~\"EQTL\" or title =~\"EQTL\")"
+"query:Ações FLRY:(tags =~\"FLRY\" or title =~\"FLRY\")"
+"query:Ações FRTA:(tags =~\"FRTA\" or title =~\"FRTA\") or (title =~\"Pomi Frutas\")"
+"query:Ações GGBR:(tags =~\"GGBR\" or title =~\"GGBR\")"
+"query:Ações GNDI:(tags =~\"GNDI\" or title =~\"GNDI\")"
+"query:Ações GOAU:(tags =~\"GOAU\" or title =~\"GOAU\")"
+"query:Ações GOLL:(tags =~\"GOLL\" or title =~\"GOLL\") or (title =~\"Gol\")"
+"query:Ações GSHP:(tags =~\"GSHP\" or title =~\"GSHP\") or (title =~\"General Shopping\")"
+"query:Ações HAPV:(tags =~\"HAPV\" or title =~\"HAPV\")"
+"query:Ações HGTX:(tags =~\"HGTX\" or title =~\"HGTX\")"
+"query:Ações HYPE:(tags =~\"HYPE\" or title =~\"HYPE\")"
+"query:Ações IGTA:(tags =~\"IGTA\" or title =~\"IGTA\") or (title =~\"Iguatemi\")"
+"query:Ações ITSA:(tags =~\"ITSA\" or title =~\"ITSA\")"
+"query:Ações ITUB:(tags =~\"ITUB\" or title =~\"ITUB\") or (title =~\"Unibanco\") or (title =~\"Itaú\")"
+"query:Ações JBSS:(tags =~\"JBSS\" or title =~\"JBSS\") or (title =~\"JBS\")"
+"query:Ações JHSF:(tags =~\"JHSF\" or title =~\"JHSF\") or (title =~\"JHS\")"
+"query:Ações KLBN:(tags =~\"KLBN\" or title =~\"KLBN\")"
+"query:Ações LAME:(tags =~\"LAME\" or title =~\"LAME\")"
+"query:Ações LREN:(tags =~\"LREN\" or title =~\"LREN\") or (title =~\"Renner\")"
+"query:Ações MGLU:(tags =~\"MGLU\" or title =~\"MGLU\") or (title =~\"Magazine Luiza\")"
+"query:Ações MRFG:(tags =~\"MRFG\" or title =~\"MRFG\") or (title =~\"Marfrig\")"
+"query:Ações MRVE:(tags =~\"MRVE\" or title =~\"MRVE\")"
+"query:Ações MULT:(tags =~\"MULT\" or title =~\"MULT\")"
+"query:Ações NTCO:(tags =~\"NTCO\" or title =~\"NTCO\")"
+"query:Ações NUTR:(tags =~\"NUTR\" or title =~\"NUTR\") or (title =~\"Nutriplant\")"
+"query:Ações OIBR:(tags =~\"OIBR\" or title =~\"OIBR\") or (title =~\"Oi\")"
+"query:Ações PCAR:(tags =~\"PCAR\" or title =~\"PCAR\")"
+"query:Ações PETR:(tags =~\"PETR\" or title =~\"PETR\")"
+"query:Ações PRIO:(tags =~\"PRIO\" or title =~\"PRIO\") or (title =~\"PetroRio\")"
+"query:Ações QUAL:(tags =~\"QUAL\" or title =~\"QUAL\")"
+"query:Ações RADL:(tags =~\"RADL\" or title =~\"RADL\")"
+"query:Ações RAIL:(tags =~\"RAIL\" or title =~\"RAIL\")"
+"query:Ações SBSP:(tags =~\"SBSP\" or title =~\"SBSP\")"
+"query:Ações SMLS:(tags =~\"SMLS\" or title =~\"SMLS\")"
+"query:Ações SQIA:(tags =~\"SQIA\" or title =~\"SQIA\") or (title =~\"Sinqia\")"
+"query:Ações SULA:(tags =~\"SULA\" or title =~\"SULA\")"
+"query:Ações SUZB:(tags =~\"SUZB\" or title =~\"SUZB\") or (title =~\"Suzano\")"
+"query:Ações TIMP:(tags =~\"TIMP\" or title =~\"TIMP\")"
+"query:Ações TOTS:(tags =~\"TOTS\" or title =~\"TOTS\")"
+"query:Ações UGPA:(tags =~\"UGPA\" or title =~\"UGPA\")"
+"query:Ações VALE:(tags =~\"VALE\" or title =~\"VALE\")"
+"query:Ações VIVT:(tags =~\"VIVT\" or title =~\"VIVT\") or (title =~\"Vivo\") or (title =~\"Telefônica\")"
+"query:Ações VVAR:(tags =~\"VVAR\" or title =~\"VVAR\")"
+"query:Ações WEGE:(tags =~\"WEGE\" or title =~\"WEGE\")"
+"query:Ações YDUQ:(tags =~\"YDUQ\" or title =~\"YDUQ\")"
+
 ---Movies----------------------------------------------------------------------
 "query:Only 720p:tags =~ \"torrents\" and ( title =~ \"720p\" )" "BTRSS"
 "query:Only 1080p:tags =~ \"torrents\" and ( title =~ \"1080p\" )" "BTRSS"
 "query:Only SD:tags =~ \"torrents\" and ( title =~ \"hdtv|x264|web\" )" "BTRSS"
+
 ---MELHORES-FONTES-POLITICA----------------------------------------------------
 http://poder360.com.br/feed/ politica
 http://causaoperaria.org.br/feed/ politica
 https://www.seudinheiro.com/feed/ investimentos
 http://www.esquerdadiario.com.br/spip.php?page=backend blog politica "~Esquerda Diário"
+
 ---acoes-fontes----------------------------------------------------------------
 #https://moneytimes.com.br/cr2/rss CRDE #Não existe página da CR2 no moneytimes
+https://moneytimes.com.br/aes-tiete/rss TIET
 https://moneytimes.com.br/ambev/rss ABEV
+https://moneytimes.com.br/arezzo/rss ARZZ
 https://moneytimes.com.br/azul/rss AZUL
 https://moneytimes.com.br/b2w/rss BTOW
 https://moneytimes.com.br/b3/rss B3SA
@@ -134,8 +150,10 @@ https://moneytimes.com.br/fleury/rss FLRY
 https://moneytimes.com.br/general-shopping/rss GSHP
 https://moneytimes.com.br/gerdau/rss GGBR
 https://moneytimes.com.br/gol/rss GOLL
+https://moneytimes.com.br/grendene/rss GRND
 https://moneytimes.com.br/hapvida/rss HAPV
 https://moneytimes.com.br/hering/rss HGTX
+https://moneytimes.com.br/hermes-pardini/rss PARD
 https://moneytimes.com.br/hypera/rss HYPE
 https://moneytimes.com.br/iguatemi/rss IGTA
 https://moneytimes.com.br/irb/rss IRBR
@@ -156,6 +174,7 @@ https://moneytimes.com.br/multiplan/rss MULT
 https://moneytimes.com.br/natura/rss NTCO
 https://moneytimes.com.br/notredame/rss GNDI
 https://moneytimes.com.br/nutriplant/rss NUTR
+https://moneytimes.com.br/odontoprev/rss ODPV
 https://moneytimes.com.br/oi/rss OIBR
 https://moneytimes.com.br/pao-de-acucar/rss PCAR
 https://moneytimes.com.br/petrobras/rss PETR
@@ -181,7 +200,9 @@ https://moneytimes.com.br/via-varejo/rss VVAR
 https://moneytimes.com.br/vivo/rss VIVT
 https://moneytimes.com.br/weg/rss WEGE
 https://moneytimes.com.br/yduqs/rss YDUQ
+
 ---feedlist----------------------------------------------------------------------
+https://ghiraldelli.pro.br/feed/ politica blog "~Paulo Guiraldelli"
 https://thepiratebay.org/rss//top100/0 torrents "BTRSS"
 https://www.torrentdownload.ch/feed_latest torrents "BTRSS"
 http://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml noticias "~Agência Brasil"
@@ -222,7 +243,7 @@ http://feeds.feedburner.com/pha blog politica "~Conversa Afiada"
 http://feeds.feedburner.com/Investimento-anjoEEmpreendedorismo blog investimentos "~Anjo e Empreendedorismo"
 http://feeds.feedburner.com/InvestimentoEmImovel blog investimentos "~Investimento em Imóvel"
 http://feeds.feedburner.com/com/HvnI linux "~Linux"
-http://feeds.feedburner.com/daltonvieira investimentos "~Dalton Vieira"
+#http://feeds.feedburner.com/daltonvieira investimentos "~Dalton Vieira"
 http://feeds.feedburner.com/edivaldobrito linux "~Linux"
 http://feeds2.feedburner.com/minhaseconomias investimentos "~Minhas Economias"
 http://g1.globo.com/dynamo/brasil/rss2.xml noticias brasil  "~G1: Brasil"
@@ -321,6 +342,7 @@ https://www.moneytimes.com.br/author/bloomberg/rss investimentos
 https://www.moneytimes.com.br/author/reuters/rss investimentos
 https://www.moneytimes.com.br/author/blog-do-pq/rss investimentos blog
 https://www.moneytimes.com.br/opiniao/rss investimentos blog
+
 ---Rural------------------------------------------------------------------------
 https://blog.aegro.com.br/feed/ rural blog
 https://aprosojabrasil.com.br/feed/ rural blog
@@ -332,8 +354,11 @@ https://www.moneytimes.com.br/soja/rss rural
 https://www.moneytimes.com.br/milho/rss rural
 https://www.moneytimes.com.br/commodities/rss rural
 https://www.moneytimes.com.br/boi-gordo/rss rural
+
 ---podcast----------------------------------------------------------------------
 https://www.spreaker.com/show/3295040/episodes/feed podcast "~PODCAST: XP Investorcast"
+https://www.r-podcast.org/episode/index.xml "~PODCAST: R podcast"
+
 ---crypto----------------------------------------------------------------------
 https://www.moneytimes.com.br/author/bravenewcoin/feed/ crypto
 https://www.moneytimes.com.br/cryptotimes/token/feed/ crypto
@@ -350,6 +375,7 @@ https://www.moneytimes.com.br/cryptotimes/cardano/feed/ crypto
 https://www.moneytimes.com.br/cryptotimes/litecoin/feed/ crypto
 #https://www.moneytimes.com.br/cryptotimes/exodus/feed/ crypto
 https://www.moneytimes.com.br/cryptotimes/zcash/feed/ crypto
+
 ---youtube----------------------------------------------------------------------
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6pkw1C4ha1cmU9aDJ8OxUw youtube investimentos "~YOUTUBE:Jovens de Negócios"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCE5Uu3nZlVbTur6xwhdoKhg youtube investimentos "~YOUTUBE:BTG Pactual Digital"
@@ -373,12 +399,45 @@ http://cnpq.br/web/guest/noticias/-/asset_publisher/6QsO/rss?p_p_cacheability=ca
 http://cnpq.br/web/guest/assine-rss academia ciencia bolsas
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube ciencia "~YOUTUBE:Psicometristas Brasil"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCx1vXgGDXc7BH7bI1KC_o7Q youtube ciencia "~YOUTUBE:Fernanda Peres"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCm09WHp3LHA5Wlf2lH-Oisg youtube ciencia "~YOUTUBE:Outspoken Market"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg youtube ciencia "~YOUTUBE:Programação Dinâmica"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube datascience "~YOUTUBE:Psicometristas Brasil"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCx1vXgGDXc7BH7bI1KC_o7Q youtube datascience  "~YOUTUBE:Fernanda Peres"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm09WHp3LHA5Wlf2lH-Oisg youtube datascience "~YOUTUBE:Outspoken Market"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg youtube datascience "~YOUTUBE:Programação Dinâmica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCb_Z-hpVjeb2C8-dVhL53kw youtube ciencia "~YOUTUBE:Prof. Eduardo Kenedy"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCPjn2qL1oBeVBa44vqAJoNw youtube blog politica "~YOUTUBE:Blog do Miro"
+
 ---latex---------------------------------------------------------------------------
 http://www.texample.net/feeds/examples/ latex
 http://pgfplots.net/feeds/tikz/examples/ latex
+
+---R-Blogs---------------------------------------------------------------------------
+https://feeds.feedburner.com/RBloggers blog datascience
+https://feeds.feedburner.com/RPsychologist blog datascience
+https://feeds.feedburner.com/sthda blog datascience
+https://feeds.feedburner.com/PostsOnMsperlin blog datascience
+https://quantstrattrader.wordpress.com/feed blog datascience
+https://rdatamining.wordpress.com/feed blog datascience
+https://stablemarkets.wordpress.com/feed blog datascience
+https://insightr.wordpress.com/feed blog datascience
+https://r-video-tutorial.blogspot.com/feeds/posts/default blog datascience
+http://www.intelligenttradingtech.blogspot.com/feeds/posts/default blog datascience
+https://lbusettspatialr.blogspot.com/feeds/posts/default blog datascience
+https://www.r-exercises.com/feed/ blog datascience
+https://blog.rstudio.com/feed/ blog datascience
+https://blog.revolutionanalytics.com/atom.xml blog datascience
+https://www.win-vector.com/blog/feed/ blog datascience
+https://rweekly.org/feed.xml blog datascience
+https://dirk.eddelbuettel.com/blog/index.xml blog datascience
+https://fronkonstin.com/feed blog datascience
+https://r4stats.com/blog/feed/ blog datascience
+https://www.rdatagen.net/feed/ blog datascience
+https://jozef.io/index.xml blog datascience
+https://brandonlebeau.org/index.xml blog datascience
+https://edwinth.github.io/feed.xml blog datascience
+https://labrtorian.com/feed/ blog datascience
+https://finderding.com/feed/ blog datascience
+https://www.thertrader.com/feed blog datascience
+https://ropensci.org/blog/index.xml blog datascience
+https://deanattali.com/feed.xml blog datascience
+https://lucidmanager.org/feed blog datascience
+https://staff.math.su.se/hoehle/blog/feed.xml blog datascience
