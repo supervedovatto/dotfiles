@@ -20,10 +20,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tmhedberg/matchit' "Extends the % function
 "Plug 'tommcdo/vim-exchange' " Provide the command cx for exchange two regions of text
 Plug 'tpope/tpope-vim-abolish' " Provide the command Subvert for magical substitutions
-Plug 'tpope/vim-fugitive' "fugitive.vim: a Git wrapper so awesome, it should be illegal http://www.vim.org/scripts/script.php?script_id=2975
+"Plug 'tpope/vim-fugitive' "fugitive.vim: a Git wrapper so awesome, it should be illegal http://www.vim.org/scripts/script.php?script_id=2975
 Plug 'tpope/vim-surround' " surround
 "Plug 'tpope/vim-vinegar' " improves the netrw
-Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-scripts/DrawIt'
 "Plug 'vim-scripts/bufexplorer.zip'
@@ -31,8 +31,8 @@ Plug 'vim-scripts/easymotion'
 "Plug 'vim-scripts/matchtag'
 Plug 'vim-scripts/recover.vim' " RecoverPlugin Useful to manage swap files
 Plug 'vim-scripts/splitjoin.vim' " This plugin is meant to simplify a task I've found too common in my workflow: switching between a single-line statement and a multi-line one. It offers the following default keybindings, which can be customized
-Plug 'vim-scripts/syntastic'
-Plug 'vim-scripts/ultisnips' | Plug 'honza/vim-snippets'
+"Plug 'vim-scripts/syntastic'
+"Plug 'vim-scripts/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'vim-scripts/vim-signature'
 "Plug 'jpalardy/vim-slime'
 "Plug 'xolox/vim-misc' | Plug 'xolox/vim-session'
@@ -62,7 +62,7 @@ Plug 'WolfgangMehner/vim-support' " Vim script suport for vim
 Plug 'blindFS/vim-taskwarrior' "Plug para TaskWarrior
 Plug 'elzr/vim-json' "Plug para JSON files in vim
 Plug 'jalvesaq/Nvim-R' " Vim plugin to work with R
-Plug 'ledger/vim-ledger' "Plug para a linguagem Ledger
+"Plug 'ledger/vim-ledger' "Plug para a linguagem Ledger
 Plug 'lervag/vimtex' " A modern vim plugin for editing LaTeX files.
 Plug 'mllg/vim-devtools-plugin' " Extension for vim-r-plugin to support the devtools package
 Plug 'vim-scripts/csv.vim' " A Filetype plugin for csv files.
@@ -81,7 +81,7 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'dkarter/bullets.vim' " Generate bulleted lists for markdown
 Plug 'godlygeek/tabular' " Vim script for text filtering and alignment
 
-Plug 'Valloric/YouCompleteMe', " A code-completion engine for Vim 
+"Plug 'Valloric/YouCompleteMe', " A code-completion engine for Vim 
 
 "Javascript
 Plug 'pangloss/vim-javascript'
