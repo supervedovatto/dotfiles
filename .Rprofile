@@ -23,3 +23,7 @@ if(Sys.getenv("NVIMR_TMPDIR") == ""){
 } else {
    options(defaultPackages = c("datasets","utils", "grDevices", "graphics", "stats", "methods", "nvimcom"))
 }
+
+library(tidyverse)
+library(kableExtra)
+library(reshape2)
