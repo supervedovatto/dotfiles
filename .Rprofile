@@ -19,11 +19,7 @@ if(interactive()){
 }
 
 if(Sys.getenv("NVIMR_TMPDIR") == ""){
-   options(defaultPackages = c("datasets","utils", "grDevices", "graphics", "stats", "methods"))
+   options(defaultPackages = c("datasets","utils", "grDevices", "graphics", "stats", "methods","tidyverse"))
 } else {
-   options(defaultPackages = c("datasets","utils", "grDevices", "graphics", "stats", "methods", "nvimcom"))
+   options(defaultPackages = c("datasets","utils", "grDevices", "graphics", "stats", "methods", "nvimcom","tidyverse"))
 }
-
-library(tidyverse)
-library(kableExtra)
-library(reshape2)
