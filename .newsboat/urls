@@ -3,7 +3,6 @@
 "query:LaTeX:(tags =~ \"latex\") and (age <= 30)"
 "query:Jataí:(tags =~ \"jatai\" or title =~ \"Jataí\") and (age <= 3 and title !~ \"COBERTURA FOTOGRÁFICA\")"
 "query:Data Science:(tags =~ \"datascience\") and (age <= 30)"
-
 "query:Ciência:(tags =~ \"ciencia\") and (age <= 30)"
 "query:Academia:(tags =~ \"academia\" or link =~ \"/educacao\" or title =~ \"MEC \") and (age <=3)"
 "query:Goiás:(tags =~ \"goias\" or title =~ \"Goiás\") and (age <= 3 and link !~\"/magazine\" and link !~\"/cultura\" and link !~\"/horizonte\" and link !~\"/horoscopo\" and link !~\"/esporte\" and title !~\"BBB\")"
@@ -119,7 +118,9 @@ http://www.esquerdadiario.com.br/spip.php?page=backend blog politica "~Esquerda 
 #https://moneytimes.com.br/cr2/rss CRDE #Não existe página da CR2 no moneytimes
 https://moneytimes.com.br/aes-tiete/rss TIET
 https://moneytimes.com.br/ambev/rss ABEV
+http://www.mzweb.com.br/ambev2012/web/arquivos/rss/ambev2012_pt_rss.xml ABEV
 https://moneytimes.com.br/arezzo/rss ARZZ
+http://arezzoco.com.br/news-archive/feed/ ARZZ
 https://moneytimes.com.br/azul/rss AZUL
 https://moneytimes.com.br/b2w/rss BTOW
 https://moneytimes.com.br/b3/rss B3SA
@@ -134,6 +135,7 @@ https://moneytimes.com.br/brf/rss BRFS
 https://moneytimes.com.br/btg-pactual/rss BPAC
 https://moneytimes.com.br/carrefour/rss CRFB
 https://moneytimes.com.br/ccr/rss CCRO
+http://ri.ccr.com.br/feed/ CCRO
 https://moneytimes.com.br/cemig/rss CMIG
 https://moneytimes.com.br/cielo/rss CIEL
 https://moneytimes.com.br/cogna/rss COGN
@@ -145,18 +147,23 @@ https://moneytimes.com.br/eletropaulo/rss ELET
 https://moneytimes.com.br/embraer/rss EMBR
 https://moneytimes.com.br/energias-do-brasil/rss ENBR
 https://moneytimes.com.br/engie-brasil/rss EGIE
+https://www.engie.com.br/feed/ EGIE
+https://www.engie.com/en/journalists/news-flash/feed EGIE
 https://moneytimes.com.br/equatorial/rss EQTL
 https://moneytimes.com.br/fleury/rss FLRY
 https://moneytimes.com.br/general-shopping/rss GSHP
 https://moneytimes.com.br/gerdau/rss GGBR
 https://moneytimes.com.br/gol/rss GOLL
 https://moneytimes.com.br/grendene/rss GRND
+http://ri.grendene.com.br/PT/rss GRND
 https://moneytimes.com.br/hapvida/rss HAPV
 https://moneytimes.com.br/hering/rss HGTX
 https://moneytimes.com.br/hermes-pardini/rss PARD
+https://ri.hermespardini.com.br/rss PARD
 https://moneytimes.com.br/hypera/rss HYPE
 https://moneytimes.com.br/iguatemi/rss IGTA
 https://moneytimes.com.br/irb/rss IRBR
+https://ri.irbre.com/feed/ IRBR
 https://moneytimes.com.br/itau-unibanco/rss ITUB
 https://moneytimes.com.br/itausa/rss ITSA
 https://moneytimes.com.br/jbs/rss JBSS
@@ -185,12 +192,14 @@ https://moneytimes.com.br/raia-drogasil/rss RADL
 https://moneytimes.com.br/rumo/rss RAIL
 https://moneytimes.com.br/sabesp/rss SBSP
 https://moneytimes.com.br/sanepar/rss SAPR
+http://ri.sanepar.com.br/feed/ SAPR
 https://moneytimes.com.br/santander/rss SANB
 https://moneytimes.com.br/sinqia/rss SQIA
 https://moneytimes.com.br/smiles/rss SMLS
 https://moneytimes.com.br/sulamerica/rss SULA
 https://moneytimes.com.br/suzano/rss SUZB
 https://moneytimes.com.br/taesa/rss TAEE
+https://ri.taesa.com.br/noticias/feed/ TAEE
 https://moneytimes.com.br/tim-participacoes/rss TIMP
 https://moneytimes.com.br/totvs/rss TOTS
 https://moneytimes.com.br/ultrapar/rss UGPA
@@ -253,6 +262,7 @@ http://goias24horas.com.br/feed/ noticias goias
 https://www.dm.jor.br/feed/ noticias goias
 http://tribunadoplanalto.com.br/feed/ noticias goias
 https://jornalgoias.com.br/feed/ noticias goias
+https://www.jornalopcao.com.br/feed noticias goias
 http://hcinvestimentos.com/feed/ blog investimentos
 http://hcinvestimentos.wordpress.com/feed/ blog investimentos
 http://imoveis-caixa.blogspot.com/feeds/posts/default blog investimentos "~Imóveis Caixa"
@@ -328,6 +338,7 @@ https://www.plantaojti.com.br/feed/ jatai
 http://www.jatainews.com.br/feeds/posts/default jatai
 http://www.jatainews.com.br/feeds/comments/default jatai blog "~Jataí News: Comentários"
 https://www.jatai.go.gov.br/noticias/feed/ jatai "~Prefeitura de Jataí"
+https://www.jatai.go.gov.br/feed/ noticias goias jatai
 https://www.policiacivil.go.gov.br/tag/jatai/feed jatai "~Polícia Civil"
 https://pn7.com.br/feed/ jatai
 https://agenciadenoticias.ibge.gov.br/?Itemid=6853&format=feed&type=rss investimentos politica
@@ -397,6 +408,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UClz3DneoYlccluy4hBlx86Q you
 http://www.fapeg.go.gov.br/feed/ academia ciencia bolsas
 http://cnpq.br/web/guest/noticias/-/asset_publisher/6QsO/rss?p_p_cacheability=cacheLevelPage academia ciencia bolsas
 http://cnpq.br/web/guest/assine-rss academia ciencia bolsas
+https://www.ifg.edu.br/ultimas-noticias?format=feed&amp;type=atom academia IFG
+https://www.gov.br/pt-br/noticias/educacao-e-pesquisa/RSS noticias academia ciencia
+https://www.gov.br/pt-br/noticias/agricultura-e-pecuaria/RSS noticias rural
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQzm6RcaOty8QU2VhHbRg-g youtube ciencia "~YOUTUBE:Mundo da Elétrica"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCn9Erjy00mpnWeLnRqhsA1g youtube ciencia "~YOUTUBE:Ciência todo dia"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmQTLhj0Ev41tjClKPJ20Lw youtube datascience "~YOUTUBE:Psicometristas Brasil"
@@ -441,4 +455,4 @@ https://ropensci.org/blog/index.xml blog datascience
 https://deanattali.com/feed.xml blog datascience
 https://lucidmanager.org/feed blog datascience
 https://staff.math.su.se/hoehle/blog/feed.xml blog datascience
-https://www.ifg.edu.br/ultimas-noticias?format=feed&amp;type=atom Academia IFG
+https://www.fulljoin.com.br/index.xml blog datascience

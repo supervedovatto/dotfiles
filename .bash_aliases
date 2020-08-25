@@ -120,7 +120,7 @@ alias gu='git up'
 alias gup='gu && gp'
 
 # Outros programas
-alias foxit='~/opt/foxitsoftware/foxitreader/FoxitReader'
+#alias foxit='~/opt/foxitsoftware/foxitreader/FoxitReader'
 alias tmux='tmux -2'
 #alias exodus='/opt/Exodus-linux-x64/Exodus'
 
