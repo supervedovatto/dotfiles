@@ -13,6 +13,7 @@ set statusbar-h-padding 8
 set statusbar-basename false
 set window-title-basename "true"
 set guioptions h #Omite a barra de status. Não é tão útil quanto parece
+#set guioptions s #Exibe a barra de status. Não é tão útil quanto parece
 
 # Colors
 set inputbar-bg "#1c1c1c"
