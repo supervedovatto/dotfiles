@@ -98,3 +98,4 @@ set guifont=DroidSansMono\ Nerd\ Font\ 12
 
 "Configuração para usar o mutt-mail
 au BufRead /tmp/mutt-* set tw=72
+let g:tex_flavor = 'latex'
