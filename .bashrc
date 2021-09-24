@@ -124,13 +124,3 @@ export EDITOR="$VISUAL"
 #Já existem alguns repositórios adicionados por padrão. O comando a
 #seguir apenas acrescenta mais um nessa lista
 export PATH=$HOME/Documents/Programas/Shell:$PATH
-
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-#eval $(/bin/brew shellenv)
-
-#For compilers to find isl@0.18 you may need to set:
-export LDFLAGS="-L/home/linuxbrew/.linuxbrew/opt/isl@0.18/lib"
-export CPPFLAGS="-I/home/linuxbrew/.linuxbrew/opt/isl@0.18/include"
-
-#For pkg-config to find isl@0.18 you may need to set:
-export PKG_CONFIG_PATH="/home/linuxbrew/.linuxbrew/opt/isl@0.18/lib/pkgconfig"
