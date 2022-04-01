@@ -126,3 +126,6 @@ export EDITOR="$VISUAL"
 #Já existem alguns repositórios adicionados por padrão. O comando a
 #seguir apenas acrescenta mais um nessa lista
 export PATH=$HOME/Documents/Programas/Shell:$PATH
+
+export KAGGLE_USERNAME=supervedovatto
+export KAGGLE_KEY=01527052acacfd79a3a1ddb6cbe8b813
